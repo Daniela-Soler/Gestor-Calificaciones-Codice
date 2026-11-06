@@ -1,0 +1,96 @@
+### YamlMime:TableOfContent
+items:
+- uid: Datos
+  name: Datos
+  type: Namespace
+  items:
+  - uid: Datos.CD_Asignatura
+    name: CD_Asignatura
+    type: Class
+  - uid: Datos.CD_Asistencia
+    name: CD_Asistencia
+    type: Class
+  - uid: Datos.CD_Calificaciones
+    name: CD_Calificaciones
+    type: Class
+  - uid: Datos.CD_Conexion
+    name: CD_Conexion
+    type: Class
+  - uid: Datos.CD_Cursos
+    name: CD_Cursos
+    type: Class
+  - uid: Datos.CD_Estudiante
+    name: CD_Estudiante
+    type: Class
+  - uid: Datos.CD_Filtros
+    name: CD_Filtros
+    type: Class
+  - uid: Datos.CD_Usuario
+    name: CD_Usuario
+    type: Class
+  - uid: Datos.Class1
+    name: Class1
+    type: Class
+  - uid: Datos.DataSet1
+    name: DataSet1
+    type: Class
+- uid: Negocio
+  name: Negocio
+  type: Namespace
+  items:
+  - uid: Negocio.CN_Asignatura
+    name: CN_Asignatura
+    type: Class
+  - uid: Negocio.CN_Asistencia
+    name: CN_Asistencia
+    type: Class
+  - uid: Negocio.CN_Calificacion
+    name: CN_Calificacion
+    type: Class
+  - uid: Negocio.CN_Conexion
+    name: CN_Conexion
+    type: Class
+  - uid: Negocio.CN_Cursos
+    name: CN_Cursos
+    type: Class
+  - uid: Negocio.CN_Estudiante
+    name: CN_Estudiante
+    type: Class
+  - uid: Negocio.CN_Filtros
+    name: CN_Filtros
+    type: Class
+  - uid: Negocio.CN_Usuario
+    name: CN_Usuario
+    type: Class
+- uid: Tarea_3___Instituto_Codice
+  name: Tarea_3___Instituto_Codice
+  type: Namespace
+  items:
+  - uid: Tarea_3___Instituto_Codice.Form1
+    name: Form1
+    type: Class
+  - uid: Tarea_3___Instituto_Codice.GestionAsignaturas
+    name: GestionAsignaturas
+    type: Class
+  - uid: Tarea_3___Instituto_Codice.GestionAsistencia
+    name: GestionAsistencia
+    type: Class
+  - uid: Tarea_3___Instituto_Codice.GestionCalificaciones
+    name: GestionCalificaciones
+    type: Class
+  - uid: Tarea_3___Instituto_Codice.GestionCursos
+    name: GestionCursos
+    type: Class
+  - uid: Tarea_3___Instituto_Codice.GestionEstudiantes
+    name: GestionEstudiantes
+    type: Class
+  - uid: Tarea_3___Instituto_Codice.MenuPrincipal
+    name: MenuPrincipal
+    type: Class
+  - uid: Tarea_3___Instituto_Codice.RegistrarUsuario
+    name: RegistrarUsuario
+    type: Class
+  - uid: Tarea_3___Instituto_Codice.SesionUsuario
+    name: SesionUsuario
+    type: Class
+memberLayout: SamePage

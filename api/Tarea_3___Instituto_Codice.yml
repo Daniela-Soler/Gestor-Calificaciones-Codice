@@ -1,0 +1,79 @@
+### YamlMime:ManagedReference
+items:
+- uid: Tarea_3___Instituto_Codice
+  commentId: N:Tarea_3___Instituto_Codice
+  id: Tarea_3___Instituto_Codice
+  children:
+  - Tarea_3___Instituto_Codice.Form1
+  - Tarea_3___Instituto_Codice.GestionAsignaturas
+  - Tarea_3___Instituto_Codice.GestionAsistencia
+  - Tarea_3___Instituto_Codice.GestionCalificaciones
+  - Tarea_3___Instituto_Codice.GestionCursos
+  - Tarea_3___Instituto_Codice.GestionEstudiantes
+  - Tarea_3___Instituto_Codice.MenuPrincipal
+  - Tarea_3___Instituto_Codice.RegistrarUsuario
+  - Tarea_3___Instituto_Codice.SesionUsuario
+  langs:
+  - csharp
+  - vb
+  name: Tarea_3___Instituto_Codice
+  nameWithType: Tarea_3___Instituto_Codice
+  fullName: Tarea_3___Instituto_Codice
+  type: Namespace
+  assemblies:
+  - Tarea 3 - Instituto Codice
+references:
+- uid: Tarea_3___Instituto_Codice.Form1
+  commentId: T:Tarea_3___Instituto_Codice.Form1
+  href: Tarea_3___Instituto_Codice.Form1.html
+  name: Form1
+  nameWithType: Form1
+  fullName: Tarea_3___Instituto_Codice.Form1
+- uid: Tarea_3___Instituto_Codice.GestionAsignaturas
+  commentId: T:Tarea_3___Instituto_Codice.GestionAsignaturas
+  href: Tarea_3___Instituto_Codice.GestionAsignaturas.html
+  name: GestionAsignaturas
+  nameWithType: GestionAsignaturas
+  fullName: Tarea_3___Instituto_Codice.GestionAsignaturas
+- uid: Tarea_3___Instituto_Codice.GestionAsistencia
+  commentId: T:Tarea_3___Instituto_Codice.GestionAsistencia
+  href: Tarea_3___Instituto_Codice.GestionAsistencia.html
+  name: GestionAsistencia
+  nameWithType: GestionAsistencia
+  fullName: Tarea_3___Instituto_Codice.GestionAsistencia
+- uid: Tarea_3___Instituto_Codice.GestionCalificaciones
+  commentId: T:Tarea_3___Instituto_Codice.GestionCalificaciones
+  href: Tarea_3___Instituto_Codice.GestionCalificaciones.html
+  name: GestionCalificaciones
+  nameWithType: GestionCalificaciones
+  fullName: Tarea_3___Instituto_Codice.GestionCalificaciones
+- uid: Tarea_3___Instituto_Codice.GestionCursos
+  commentId: T:Tarea_3___Instituto_Codice.GestionCursos
+  href: Tarea_3___Instituto_Codice.GestionCursos.html
+  name: GestionCursos
+  nameWithType: GestionCursos
+  fullName: Tarea_3___Instituto_Codice.GestionCursos
+- uid: Tarea_3___Instituto_Codice.GestionEstudiantes
+  commentId: T:Tarea_3___Instituto_Codice.GestionEstudiantes
+  href: Tarea_3___Instituto_Codice.GestionEstudiantes.html
+  name: GestionEstudiantes
+  nameWithType: GestionEstudiantes
+  fullName: Tarea_3___Instituto_Codice.GestionEstudiantes
+- uid: Tarea_3___Instituto_Codice.MenuPrincipal
+  commentId: T:Tarea_3___Instituto_Codice.MenuPrincipal
+  href: Tarea_3___Instituto_Codice.MenuPrincipal.html
+  name: MenuPrincipal
+  nameWithType: MenuPrincipal
+  fullName: Tarea_3___Instituto_Codice.MenuPrincipal
+- uid: Tarea_3___Instituto_Codice.RegistrarUsuario
+  commentId: T:Tarea_3___Instituto_Codice.RegistrarUsuario
+  href: Tarea_3___Instituto_Codice.RegistrarUsuario.html
+  name: RegistrarUsuario
+  nameWithType: RegistrarUsuario
+  fullName: Tarea_3___Instituto_Codice.RegistrarUsuario
+- uid: Tarea_3___Instituto_Codice.SesionUsuario
+  commentId: T:Tarea_3___Instituto_Codice.SesionUsuario
+  href: Tarea_3___Instituto_Codice.SesionUsuario.html
+  name: SesionUsuario
+  nameWithType: SesionUsuario
+  fullName: Tarea_3___Instituto_Codice.SesionUsuario

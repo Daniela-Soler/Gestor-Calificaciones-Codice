@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: Negocio
+  commentId: N:Negocio
+  id: Negocio
+  children:
+  - Negocio.CN_Asignatura
+  - Negocio.CN_Asistencia
+  - Negocio.CN_Calificacion
+  - Negocio.CN_Conexion
+  - Negocio.CN_Cursos
+  - Negocio.CN_Estudiante
+  - Negocio.CN_Filtros
+  - Negocio.CN_Usuario
+  langs:
+  - csharp
+  - vb
+  name: Negocio
+  nameWithType: Negocio
+  fullName: Negocio
+  type: Namespace
+  assemblies:
+  - Negocio
+references:
+- uid: Negocio.CN_Asignatura
+  commentId: T:Negocio.CN_Asignatura
+  href: Negocio.CN_Asignatura.html
+  name: CN_Asignatura
+  nameWithType: CN_Asignatura
+  fullName: Negocio.CN_Asignatura
+- uid: Negocio.CN_Asistencia
+  commentId: T:Negocio.CN_Asistencia
+  href: Negocio.CN_Asistencia.html
+  name: CN_Asistencia
+  nameWithType: CN_Asistencia
+  fullName: Negocio.CN_Asistencia
+- uid: Negocio.CN_Calificacion
+  commentId: T:Negocio.CN_Calificacion
+  href: Negocio.CN_Calificacion.html
+  name: CN_Calificacion
+  nameWithType: CN_Calificacion
+  fullName: Negocio.CN_Calificacion
+- uid: Negocio.CN_Conexion
+  commentId: T:Negocio.CN_Conexion
+  href: Negocio.CN_Conexion.html
+  name: CN_Conexion
+  nameWithType: CN_Conexion
+  fullName: Negocio.CN_Conexion
+- uid: Negocio.CN_Cursos
+  commentId: T:Negocio.CN_Cursos
+  href: Negocio.CN_Cursos.html
+  name: CN_Cursos
+  nameWithType: CN_Cursos
+  fullName: Negocio.CN_Cursos
+- uid: Negocio.CN_Estudiante
+  commentId: T:Negocio.CN_Estudiante
+  href: Negocio.CN_Estudiante.html
+  name: CN_Estudiante
+  nameWithType: CN_Estudiante
+  fullName: Negocio.CN_Estudiante
+- uid: Negocio.CN_Filtros
+  commentId: T:Negocio.CN_Filtros
+  href: Negocio.CN_Filtros.html
+  name: CN_Filtros
+  nameWithType: CN_Filtros
+  fullName: Negocio.CN_Filtros
+- uid: Negocio.CN_Usuario
+  commentId: T:Negocio.CN_Usuario
+  href: Negocio.CN_Usuario.html
+  name: CN_Usuario
+  nameWithType: CN_Usuario
+  fullName: Negocio.CN_Usuario
