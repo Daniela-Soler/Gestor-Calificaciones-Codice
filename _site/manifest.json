@@ -1,0 +1,522 @@
+{
+  "source_base_path": "C:/Users/spyro/Downloads/Taller de Programación/Prueba ENE/Tarea 3/Tarea 3D/Tarea 3 - Instituto Codice",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Datos.CD_Asignatura.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Datos.CD_Asignatura.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Datos.CD_Asignatura",
+      "Summary": "<p sourcefile=\"api/Datos.CD_Asignatura.yml\" sourcestartlinenumber=\"1\">Clase encargada de realizar operaciones de base de datos relacionadas con asignaturas.\nImplementa métodos para crear, leer y actualizar asignaturas en la base de datos.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Datos.CD_Asistencia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Datos.CD_Asistencia.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Datos.CD_Asistencia",
+      "Summary": "<p sourcefile=\"api/Datos.CD_Asistencia.yml\" sourcestartlinenumber=\"1\">Clase que gestiona las operaciones de base de datos relacionadas con asistencias de estudiantes.\nImplementa métodos para crear, leer y actualizar asistencias en la base de datos.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Datos.CD_Calificaciones.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Datos.CD_Calificaciones.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Datos.CD_Calificaciones",
+      "Summary": "<p sourcefile=\"api/Datos.CD_Calificaciones.yml\" sourcestartlinenumber=\"1\">Clase que gestiona las operaciones de base de datos relacionadas con las calificaciones de estudiantes.\nImplementa métodos para crear, leer y actualizar calificaciones en la base de datos.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Datos.CD_Conexion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Datos.CD_Conexion.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Datos.CD_Conexion",
+      "Summary": "<p sourcefile=\"api/Datos.CD_Conexion.yml\" sourcestartlinenumber=\"1\">Clase que gestiona la conexión a la base de datos SQL Server.\nProporciona métodos para abrir, cerrar y probar la conexión.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Datos.CD_Cursos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Datos.CD_Cursos.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Datos.CD_Cursos",
+      "Summary": "<p sourcefile=\"api/Datos.CD_Cursos.yml\" sourcestartlinenumber=\"1\">Clase que gestiona las operaciones de base de datos relacionadas con los cursos del instituto.\nImplementa métodos para crear, leer y actualizar cursos en la base de datos.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Datos.CD_Estudiante.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Datos.CD_Estudiante.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Datos.CD_Estudiante",
+      "Summary": "<p sourcefile=\"api/Datos.CD_Estudiante.yml\" sourcestartlinenumber=\"1\">Clase que gestiona las operaciones de base de datos relacionadas con los estudiantes.\nImplementa métodos para crear, leer y actualizar estudiantes en la base de datos.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Datos.CD_Filtros.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Datos.CD_Filtros.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Datos.CD_Filtros",
+      "Summary": "<p sourcefile=\"api/Datos.CD_Filtros.yml\" sourcestartlinenumber=\"1\">Clase que proporciona métodos de filtrado y consulta de datos específicos relacionados con estudiantes, cursos y asignaturas.\nPermite obtener información filtrada para las diferentes vistas de la aplicación.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Datos.CD_Usuario.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Datos.CD_Usuario.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Datos.CD_Usuario",
+      "Summary": "<p sourcefile=\"api/Datos.CD_Usuario.yml\" sourcestartlinenumber=\"1\">Clase que gestiona las operaciones de base de datos relacionadas con la autenticación y gestión de usuarios.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Datos.Class1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Datos.Class1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Datos.Class1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Datos.DataSet1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Datos.DataSet1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Datos.DataSet1",
+      "Summary": "<p sourcefile=\"api/Datos.DataSet1.yml\" sourcestartlinenumber=\"1\">Represents a strongly typed in-memory cache of data.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Datos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Datos.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Datos",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Negocio.CN_Asignatura.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Negocio.CN_Asignatura.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Negocio.CN_Asignatura",
+      "Summary": "<p sourcefile=\"api/Negocio.CN_Asignatura.yml\" sourcestartlinenumber=\"1\">Clase de lógica de negocio que gestiona las operaciones relacionadas con asignaturas.\nIncluye validaciones antes de interactuar con la capa de datos.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Negocio.CN_Asistencia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Negocio.CN_Asistencia.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Negocio.CN_Asistencia",
+      "Summary": "<p sourcefile=\"api/Negocio.CN_Asistencia.yml\" sourcestartlinenumber=\"1\">Clase de lógica de negocio que gestiona las operaciones relacionadas con asistencias de estudiantes.\nIncluye validaciones antes de interactuar con la capa de datos.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Negocio.CN_Calificacion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Negocio.CN_Calificacion.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Negocio.CN_Calificacion",
+      "Summary": "<p sourcefile=\"api/Negocio.CN_Calificacion.yml\" sourcestartlinenumber=\"1\">Clase de lógica de negocio que gestiona las operaciones relacionadas con calificaciones de estudiantes.\nIncluye validaciones de rango de notas y otras reglas de negocio antes de interactuar con la capa de datos.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Negocio.CN_Conexion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Negocio.CN_Conexion.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Negocio.CN_Conexion",
+      "Summary": "<p sourcefile=\"api/Negocio.CN_Conexion.yml\" sourcestartlinenumber=\"1\">Clase de lógica de negocio que verifica la conectividad con la base de datos.\nActúa como intermediario entre la capa de presentación y la capa de datos para validar conexiones.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Negocio.CN_Cursos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Negocio.CN_Cursos.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Negocio.CN_Cursos",
+      "Summary": "<p sourcefile=\"api/Negocio.CN_Cursos.yml\" sourcestartlinenumber=\"1\">Clase de lógica de negocio que gestiona las operaciones relacionadas con cursos.\nIncluye validaciones de longitud de campos y otras reglas de negocio antes de interactuar con la capa de datos.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Negocio.CN_Estudiante.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Negocio.CN_Estudiante.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Negocio.CN_Estudiante",
+      "Summary": "<p sourcefile=\"api/Negocio.CN_Estudiante.yml\" sourcestartlinenumber=\"1\">Clase de lógica de negocio que gestiona las operaciones relacionadas con estudiantes.\nIncluye validaciones de campos obligatorios, longitud de datos y otras reglas de negocio.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Negocio.CN_Filtros.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Negocio.CN_Filtros.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Negocio.CN_Filtros",
+      "Summary": "<p sourcefile=\"api/Negocio.CN_Filtros.yml\" sourcestartlinenumber=\"1\">Clase de lógica de negocio que proporciona métodos de filtrado para consultas específicas.\nPermite obtener datos filtrados por curso, asignatura o combinaciones de ambos.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Negocio.CN_Usuario.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Negocio.CN_Usuario.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Negocio.CN_Usuario",
+      "Summary": "<p sourcefile=\"api/Negocio.CN_Usuario.yml\" sourcestartlinenumber=\"1\">Clase de lógica de negocio que gestiona la autenticación y registro de usuarios en el sistema.\nIncluye validaciones de campos obligatorios antes de interactuar con la capa de datos.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Negocio.Class1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Negocio.Class1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Negocio.Class1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Negocio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Negocio.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Negocio",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tarea_3___Instituto_Codice.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tarea_3___Instituto_Codice.Form1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tarea_3___Instituto_Codice.Form1",
+      "Summary": "<p sourcefile=\"api/Tarea_3___Instituto_Codice.Form1.yml\" sourcestartlinenumber=\"1\">Formulario principal de inicio de sesión de la aplicación Instituto CODICE.\nPermite a los usuarios autenticarse en el sistema y verificar la conexión con la base de datos.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tarea_3___Instituto_Codice.GestionAsignaturas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tarea_3___Instituto_Codice.GestionAsignaturas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tarea_3___Instituto_Codice.GestionAsignaturas",
+      "Summary": "<p sourcefile=\"api/Tarea_3___Instituto_Codice.GestionAsignaturas.yml\" sourcestartlinenumber=\"1\">Formulario para la gestión completa de asignaturas del Instituto CODICE.\nPermite crear, visualizar y actualizar asignaturas asociadas a cursos específicos.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tarea_3___Instituto_Codice.GestionAsistencia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tarea_3___Instituto_Codice.GestionAsistencia.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tarea_3___Instituto_Codice.GestionAsistencia",
+      "Summary": "<p sourcefile=\"api/Tarea_3___Instituto_Codice.GestionAsistencia.yml\" sourcestartlinenumber=\"1\">Formulario para la gestión completa de asistencias del Instituto CODICE.\nPermite registrar y actualizar asistencias de estudiantes por curso y asignatura.\nIncluye filtrado dinámico y visualización en DataGridView con checkboxes para marcar asistencia.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tarea_3___Instituto_Codice.GestionCalificaciones.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tarea_3___Instituto_Codice.GestionCalificaciones.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tarea_3___Instituto_Codice.GestionCalificaciones",
+      "Summary": "<p sourcefile=\"api/Tarea_3___Instituto_Codice.GestionCalificaciones.yml\" sourcestartlinenumber=\"1\">Formulario de gestión de calificaciones del sistema Instituto Códice.\nPermite ingresar nuevas calificaciones y actualizar las existentes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tarea_3___Instituto_Codice.GestionCursos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tarea_3___Instituto_Codice.GestionCursos.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tarea_3___Instituto_Codice.GestionCursos",
+      "Summary": "<p sourcefile=\"api/Tarea_3___Instituto_Codice.GestionCursos.yml\" sourcestartlinenumber=\"1\">Formulario de gestión de cursos del sistema Instituto Códice.\nPermite crear, visualizar y actualizar información de cursos.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tarea_3___Instituto_Codice.GestionEstudiantes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tarea_3___Instituto_Codice.GestionEstudiantes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tarea_3___Instituto_Codice.GestionEstudiantes",
+      "Summary": "<p sourcefile=\"api/Tarea_3___Instituto_Codice.GestionEstudiantes.yml\" sourcestartlinenumber=\"1\">Formulario de gestión de estudiantes del sistema Instituto Códice.\nPermite crear, visualizar y actualizar información de estudiantes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tarea_3___Instituto_Codice.MenuPrincipal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tarea_3___Instituto_Codice.MenuPrincipal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tarea_3___Instituto_Codice.MenuPrincipal",
+      "Summary": "<p sourcefile=\"api/Tarea_3___Instituto_Codice.MenuPrincipal.yml\" sourcestartlinenumber=\"1\">Formulario del menú principal del sistema Instituto Códice.\nProporciona acceso a todos los módulos de gestión del sistema.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tarea_3___Instituto_Codice.RegistrarUsuario.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tarea_3___Instituto_Codice.RegistrarUsuario.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tarea_3___Instituto_Codice.RegistrarUsuario",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tarea_3___Instituto_Codice.SesionUsuario.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tarea_3___Instituto_Codice.SesionUsuario.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tarea_3___Instituto_Codice.SesionUsuario",
+      "Summary": "<p sourcefile=\"api/Tarea_3___Instituto_Codice.SesionUsuario.yml\" sourcestartlinenumber=\"1\">Clase estática que gestiona la sesión del usuario autenticado en la aplicación.\nAlmacena la información del usuario activo y proporciona métodos para gestionar el estado de sesión.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Tarea_3___Instituto_Codice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Tarea_3___Instituto_Codice.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Tarea_3___Instituto_Codice",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,1399 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Datos
+  name: Datos
+  href: api/Datos.html
+  commentId: N:Datos
+  fullName: Datos
+  nameWithType: Datos
+- uid: Datos.CD_Asignatura
+  name: CD_Asignatura
+  href: api/Datos.CD_Asignatura.html
+  commentId: T:Datos.CD_Asignatura
+  fullName: Datos.CD_Asignatura
+  nameWithType: CD_Asignatura
+- uid: Datos.CD_Asignatura.CD_ActualizarAsignatura(System.Int32,System.Int32,System.String,System.Int32)
+  name: CD_ActualizarAsignatura(int, int, string, int)
+  href: api/Datos.CD_Asignatura.html#Datos_CD_Asignatura_CD_ActualizarAsignatura_System_Int32_System_Int32_System_String_System_Int32_
+  commentId: M:Datos.CD_Asignatura.CD_ActualizarAsignatura(System.Int32,System.Int32,System.String,System.Int32)
+  name.vb: CD_ActualizarAsignatura(Integer, Integer, String, Integer)
+  fullName: Datos.CD_Asignatura.CD_ActualizarAsignatura(int, int, string, int)
+  fullName.vb: Datos.CD_Asignatura.CD_ActualizarAsignatura(Integer, Integer, String, Integer)
+  nameWithType: CD_Asignatura.CD_ActualizarAsignatura(int, int, string, int)
+  nameWithType.vb: CD_Asignatura.CD_ActualizarAsignatura(Integer, Integer, String, Integer)
+- uid: Datos.CD_Asignatura.CD_ActualizarAsignatura*
+  name: CD_ActualizarAsignatura
+  href: api/Datos.CD_Asignatura.html#Datos_CD_Asignatura_CD_ActualizarAsignatura_
+  commentId: Overload:Datos.CD_Asignatura.CD_ActualizarAsignatura
+  isSpec: "True"
+  fullName: Datos.CD_Asignatura.CD_ActualizarAsignatura
+  nameWithType: CD_Asignatura.CD_ActualizarAsignatura
+- uid: Datos.CD_Asignatura.CD_CrearAsignatura(System.Int32,System.String,System.Int32)
+  name: CD_CrearAsignatura(int, string, int)
+  href: api/Datos.CD_Asignatura.html#Datos_CD_Asignatura_CD_CrearAsignatura_System_Int32_System_String_System_Int32_
+  commentId: M:Datos.CD_Asignatura.CD_CrearAsignatura(System.Int32,System.String,System.Int32)
+  name.vb: CD_CrearAsignatura(Integer, String, Integer)
+  fullName: Datos.CD_Asignatura.CD_CrearAsignatura(int, string, int)
+  fullName.vb: Datos.CD_Asignatura.CD_CrearAsignatura(Integer, String, Integer)
+  nameWithType: CD_Asignatura.CD_CrearAsignatura(int, string, int)
+  nameWithType.vb: CD_Asignatura.CD_CrearAsignatura(Integer, String, Integer)
+- uid: Datos.CD_Asignatura.CD_CrearAsignatura*
+  name: CD_CrearAsignatura
+  href: api/Datos.CD_Asignatura.html#Datos_CD_Asignatura_CD_CrearAsignatura_
+  commentId: Overload:Datos.CD_Asignatura.CD_CrearAsignatura
+  isSpec: "True"
+  fullName: Datos.CD_Asignatura.CD_CrearAsignatura
+  nameWithType: CD_Asignatura.CD_CrearAsignatura
+- uid: Datos.CD_Asignatura.CD_VerAsignaturas
+  name: CD_VerAsignaturas()
+  href: api/Datos.CD_Asignatura.html#Datos_CD_Asignatura_CD_VerAsignaturas
+  commentId: M:Datos.CD_Asignatura.CD_VerAsignaturas
+  fullName: Datos.CD_Asignatura.CD_VerAsignaturas()
+  nameWithType: CD_Asignatura.CD_VerAsignaturas()
+- uid: Datos.CD_Asignatura.CD_VerAsignaturas*
+  name: CD_VerAsignaturas
+  href: api/Datos.CD_Asignatura.html#Datos_CD_Asignatura_CD_VerAsignaturas_
+  commentId: Overload:Datos.CD_Asignatura.CD_VerAsignaturas
+  isSpec: "True"
+  fullName: Datos.CD_Asignatura.CD_VerAsignaturas
+  nameWithType: CD_Asignatura.CD_VerAsignaturas
+- uid: Datos.CD_Asistencia
+  name: CD_Asistencia
+  href: api/Datos.CD_Asistencia.html
+  commentId: T:Datos.CD_Asistencia
+  fullName: Datos.CD_Asistencia
+  nameWithType: CD_Asistencia
+- uid: Datos.CD_Asistencia.CD_ActualizarAsistencia(System.Int32,System.Int32,System.Int32,System.DateTime,System.Boolean,System.Int32)
+  name: CD_ActualizarAsistencia(int, int, int, DateTime, bool, int)
+  href: api/Datos.CD_Asistencia.html#Datos_CD_Asistencia_CD_ActualizarAsistencia_System_Int32_System_Int32_System_Int32_System_DateTime_System_Boolean_System_Int32_
+  commentId: M:Datos.CD_Asistencia.CD_ActualizarAsistencia(System.Int32,System.Int32,System.Int32,System.DateTime,System.Boolean,System.Int32)
+  name.vb: CD_ActualizarAsistencia(Integer, Integer, Integer, Date, Boolean, Integer)
+  fullName: Datos.CD_Asistencia.CD_ActualizarAsistencia(int, int, int, System.DateTime, bool, int)
+  fullName.vb: Datos.CD_Asistencia.CD_ActualizarAsistencia(Integer, Integer, Integer, Date, Boolean, Integer)
+  nameWithType: CD_Asistencia.CD_ActualizarAsistencia(int, int, int, DateTime, bool, int)
+  nameWithType.vb: CD_Asistencia.CD_ActualizarAsistencia(Integer, Integer, Integer, Date, Boolean, Integer)
+- uid: Datos.CD_Asistencia.CD_ActualizarAsistencia*
+  name: CD_ActualizarAsistencia
+  href: api/Datos.CD_Asistencia.html#Datos_CD_Asistencia_CD_ActualizarAsistencia_
+  commentId: Overload:Datos.CD_Asistencia.CD_ActualizarAsistencia
+  isSpec: "True"
+  fullName: Datos.CD_Asistencia.CD_ActualizarAsistencia
+  nameWithType: CD_Asistencia.CD_ActualizarAsistencia
+- uid: Datos.CD_Asistencia.CD_IngresarAsistencia(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Int32)
+  name: CD_IngresarAsistencia(int, int, DateTime, bool, int)
+  href: api/Datos.CD_Asistencia.html#Datos_CD_Asistencia_CD_IngresarAsistencia_System_Int32_System_Int32_System_DateTime_System_Boolean_System_Int32_
+  commentId: M:Datos.CD_Asistencia.CD_IngresarAsistencia(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Int32)
+  name.vb: CD_IngresarAsistencia(Integer, Integer, Date, Boolean, Integer)
+  fullName: Datos.CD_Asistencia.CD_IngresarAsistencia(int, int, System.DateTime, bool, int)
+  fullName.vb: Datos.CD_Asistencia.CD_IngresarAsistencia(Integer, Integer, Date, Boolean, Integer)
+  nameWithType: CD_Asistencia.CD_IngresarAsistencia(int, int, DateTime, bool, int)
+  nameWithType.vb: CD_Asistencia.CD_IngresarAsistencia(Integer, Integer, Date, Boolean, Integer)
+- uid: Datos.CD_Asistencia.CD_IngresarAsistencia*
+  name: CD_IngresarAsistencia
+  href: api/Datos.CD_Asistencia.html#Datos_CD_Asistencia_CD_IngresarAsistencia_
+  commentId: Overload:Datos.CD_Asistencia.CD_IngresarAsistencia
+  isSpec: "True"
+  fullName: Datos.CD_Asistencia.CD_IngresarAsistencia
+  nameWithType: CD_Asistencia.CD_IngresarAsistencia
+- uid: Datos.CD_Asistencia.CD_VerAsistencias
+  name: CD_VerAsistencias()
+  href: api/Datos.CD_Asistencia.html#Datos_CD_Asistencia_CD_VerAsistencias
+  commentId: M:Datos.CD_Asistencia.CD_VerAsistencias
+  fullName: Datos.CD_Asistencia.CD_VerAsistencias()
+  nameWithType: CD_Asistencia.CD_VerAsistencias()
+- uid: Datos.CD_Asistencia.CD_VerAsistencias*
+  name: CD_VerAsistencias
+  href: api/Datos.CD_Asistencia.html#Datos_CD_Asistencia_CD_VerAsistencias_
+  commentId: Overload:Datos.CD_Asistencia.CD_VerAsistencias
+  isSpec: "True"
+  fullName: Datos.CD_Asistencia.CD_VerAsistencias
+  nameWithType: CD_Asistencia.CD_VerAsistencias
+- uid: Datos.CD_Calificaciones
+  name: CD_Calificaciones
+  href: api/Datos.CD_Calificaciones.html
+  commentId: T:Datos.CD_Calificaciones
+  fullName: Datos.CD_Calificaciones
+  nameWithType: CD_Calificaciones
+- uid: Datos.CD_Calificaciones.CD_ActualizarCalificacion(System.Int32,System.Int32,System.Int32,System.Decimal,System.DateTime,System.Int32)
+  name: CD_ActualizarCalificacion(int, int, int, decimal, DateTime, int)
+  href: api/Datos.CD_Calificaciones.html#Datos_CD_Calificaciones_CD_ActualizarCalificacion_System_Int32_System_Int32_System_Int32_System_Decimal_System_DateTime_System_Int32_
+  commentId: M:Datos.CD_Calificaciones.CD_ActualizarCalificacion(System.Int32,System.Int32,System.Int32,System.Decimal,System.DateTime,System.Int32)
+  name.vb: CD_ActualizarCalificacion(Integer, Integer, Integer, Decimal, Date, Integer)
+  fullName: Datos.CD_Calificaciones.CD_ActualizarCalificacion(int, int, int, decimal, System.DateTime, int)
+  fullName.vb: Datos.CD_Calificaciones.CD_ActualizarCalificacion(Integer, Integer, Integer, Decimal, Date, Integer)
+  nameWithType: CD_Calificaciones.CD_ActualizarCalificacion(int, int, int, decimal, DateTime, int)
+  nameWithType.vb: CD_Calificaciones.CD_ActualizarCalificacion(Integer, Integer, Integer, Decimal, Date, Integer)
+- uid: Datos.CD_Calificaciones.CD_ActualizarCalificacion*
+  name: CD_ActualizarCalificacion
+  href: api/Datos.CD_Calificaciones.html#Datos_CD_Calificaciones_CD_ActualizarCalificacion_
+  commentId: Overload:Datos.CD_Calificaciones.CD_ActualizarCalificacion
+  isSpec: "True"
+  fullName: Datos.CD_Calificaciones.CD_ActualizarCalificacion
+  nameWithType: CD_Calificaciones.CD_ActualizarCalificacion
+- uid: Datos.CD_Calificaciones.CD_CrearCalificacion(System.Int32,System.Int32,System.Decimal,System.DateTime,System.Int32)
+  name: CD_CrearCalificacion(int, int, decimal, DateTime, int)
+  href: api/Datos.CD_Calificaciones.html#Datos_CD_Calificaciones_CD_CrearCalificacion_System_Int32_System_Int32_System_Decimal_System_DateTime_System_Int32_
+  commentId: M:Datos.CD_Calificaciones.CD_CrearCalificacion(System.Int32,System.Int32,System.Decimal,System.DateTime,System.Int32)
+  name.vb: CD_CrearCalificacion(Integer, Integer, Decimal, Date, Integer)
+  fullName: Datos.CD_Calificaciones.CD_CrearCalificacion(int, int, decimal, System.DateTime, int)
+  fullName.vb: Datos.CD_Calificaciones.CD_CrearCalificacion(Integer, Integer, Decimal, Date, Integer)
+  nameWithType: CD_Calificaciones.CD_CrearCalificacion(int, int, decimal, DateTime, int)
+  nameWithType.vb: CD_Calificaciones.CD_CrearCalificacion(Integer, Integer, Decimal, Date, Integer)
+- uid: Datos.CD_Calificaciones.CD_CrearCalificacion*
+  name: CD_CrearCalificacion
+  href: api/Datos.CD_Calificaciones.html#Datos_CD_Calificaciones_CD_CrearCalificacion_
+  commentId: Overload:Datos.CD_Calificaciones.CD_CrearCalificacion
+  isSpec: "True"
+  fullName: Datos.CD_Calificaciones.CD_CrearCalificacion
+  nameWithType: CD_Calificaciones.CD_CrearCalificacion
+- uid: Datos.CD_Calificaciones.CD_VerCalificaciones
+  name: CD_VerCalificaciones()
+  href: api/Datos.CD_Calificaciones.html#Datos_CD_Calificaciones_CD_VerCalificaciones
+  commentId: M:Datos.CD_Calificaciones.CD_VerCalificaciones
+  fullName: Datos.CD_Calificaciones.CD_VerCalificaciones()
+  nameWithType: CD_Calificaciones.CD_VerCalificaciones()
+- uid: Datos.CD_Calificaciones.CD_VerCalificaciones*
+  name: CD_VerCalificaciones
+  href: api/Datos.CD_Calificaciones.html#Datos_CD_Calificaciones_CD_VerCalificaciones_
+  commentId: Overload:Datos.CD_Calificaciones.CD_VerCalificaciones
+  isSpec: "True"
+  fullName: Datos.CD_Calificaciones.CD_VerCalificaciones
+  nameWithType: CD_Calificaciones.CD_VerCalificaciones
+- uid: Datos.CD_Conexion
+  name: CD_Conexion
+  href: api/Datos.CD_Conexion.html
+  commentId: T:Datos.CD_Conexion
+  fullName: Datos.CD_Conexion
+  nameWithType: CD_Conexion
+- uid: Datos.CD_Conexion.AbrirConexion
+  name: AbrirConexion()
+  href: api/Datos.CD_Conexion.html#Datos_CD_Conexion_AbrirConexion
+  commentId: M:Datos.CD_Conexion.AbrirConexion
+  fullName: Datos.CD_Conexion.AbrirConexion()
+  nameWithType: CD_Conexion.AbrirConexion()
+- uid: Datos.CD_Conexion.AbrirConexion*
+  name: AbrirConexion
+  href: api/Datos.CD_Conexion.html#Datos_CD_Conexion_AbrirConexion_
+  commentId: Overload:Datos.CD_Conexion.AbrirConexion
+  isSpec: "True"
+  fullName: Datos.CD_Conexion.AbrirConexion
+  nameWithType: CD_Conexion.AbrirConexion
+- uid: Datos.CD_Conexion.CerrarConexion
+  name: CerrarConexion()
+  href: api/Datos.CD_Conexion.html#Datos_CD_Conexion_CerrarConexion
+  commentId: M:Datos.CD_Conexion.CerrarConexion
+  fullName: Datos.CD_Conexion.CerrarConexion()
+  nameWithType: CD_Conexion.CerrarConexion()
+- uid: Datos.CD_Conexion.CerrarConexion*
+  name: CerrarConexion
+  href: api/Datos.CD_Conexion.html#Datos_CD_Conexion_CerrarConexion_
+  commentId: Overload:Datos.CD_Conexion.CerrarConexion
+  isSpec: "True"
+  fullName: Datos.CD_Conexion.CerrarConexion
+  nameWithType: CD_Conexion.CerrarConexion
+- uid: Datos.CD_Conexion.ProbarConexion
+  name: ProbarConexion()
+  href: api/Datos.CD_Conexion.html#Datos_CD_Conexion_ProbarConexion
+  commentId: M:Datos.CD_Conexion.ProbarConexion
+  fullName: Datos.CD_Conexion.ProbarConexion()
+  nameWithType: CD_Conexion.ProbarConexion()
+- uid: Datos.CD_Conexion.ProbarConexion*
+  name: ProbarConexion
+  href: api/Datos.CD_Conexion.html#Datos_CD_Conexion_ProbarConexion_
+  commentId: Overload:Datos.CD_Conexion.ProbarConexion
+  isSpec: "True"
+  fullName: Datos.CD_Conexion.ProbarConexion
+  nameWithType: CD_Conexion.ProbarConexion
+- uid: Datos.CD_Cursos
+  name: CD_Cursos
+  href: api/Datos.CD_Cursos.html
+  commentId: T:Datos.CD_Cursos
+  fullName: Datos.CD_Cursos
+  nameWithType: CD_Cursos
+- uid: Datos.CD_Cursos.CD_ActualizarCurso(System.Int32,System.String,System.Int32)
+  name: CD_ActualizarCurso(int, string, int)
+  href: api/Datos.CD_Cursos.html#Datos_CD_Cursos_CD_ActualizarCurso_System_Int32_System_String_System_Int32_
+  commentId: M:Datos.CD_Cursos.CD_ActualizarCurso(System.Int32,System.String,System.Int32)
+  name.vb: CD_ActualizarCurso(Integer, String, Integer)
+  fullName: Datos.CD_Cursos.CD_ActualizarCurso(int, string, int)
+  fullName.vb: Datos.CD_Cursos.CD_ActualizarCurso(Integer, String, Integer)
+  nameWithType: CD_Cursos.CD_ActualizarCurso(int, string, int)
+  nameWithType.vb: CD_Cursos.CD_ActualizarCurso(Integer, String, Integer)
+- uid: Datos.CD_Cursos.CD_ActualizarCurso*
+  name: CD_ActualizarCurso
+  href: api/Datos.CD_Cursos.html#Datos_CD_Cursos_CD_ActualizarCurso_
+  commentId: Overload:Datos.CD_Cursos.CD_ActualizarCurso
+  isSpec: "True"
+  fullName: Datos.CD_Cursos.CD_ActualizarCurso
+  nameWithType: CD_Cursos.CD_ActualizarCurso
+- uid: Datos.CD_Cursos.CD_CrearCurso(System.String,System.Int32)
+  name: CD_CrearCurso(string, int)
+  href: api/Datos.CD_Cursos.html#Datos_CD_Cursos_CD_CrearCurso_System_String_System_Int32_
+  commentId: M:Datos.CD_Cursos.CD_CrearCurso(System.String,System.Int32)
+  name.vb: CD_CrearCurso(String, Integer)
+  fullName: Datos.CD_Cursos.CD_CrearCurso(string, int)
+  fullName.vb: Datos.CD_Cursos.CD_CrearCurso(String, Integer)
+  nameWithType: CD_Cursos.CD_CrearCurso(string, int)
+  nameWithType.vb: CD_Cursos.CD_CrearCurso(String, Integer)
+- uid: Datos.CD_Cursos.CD_CrearCurso*
+  name: CD_CrearCurso
+  href: api/Datos.CD_Cursos.html#Datos_CD_Cursos_CD_CrearCurso_
+  commentId: Overload:Datos.CD_Cursos.CD_CrearCurso
+  isSpec: "True"
+  fullName: Datos.CD_Cursos.CD_CrearCurso
+  nameWithType: CD_Cursos.CD_CrearCurso
+- uid: Datos.CD_Cursos.CD_VerCursos
+  name: CD_VerCursos()
+  href: api/Datos.CD_Cursos.html#Datos_CD_Cursos_CD_VerCursos
+  commentId: M:Datos.CD_Cursos.CD_VerCursos
+  fullName: Datos.CD_Cursos.CD_VerCursos()
+  nameWithType: CD_Cursos.CD_VerCursos()
+- uid: Datos.CD_Cursos.CD_VerCursos*
+  name: CD_VerCursos
+  href: api/Datos.CD_Cursos.html#Datos_CD_Cursos_CD_VerCursos_
+  commentId: Overload:Datos.CD_Cursos.CD_VerCursos
+  isSpec: "True"
+  fullName: Datos.CD_Cursos.CD_VerCursos
+  nameWithType: CD_Cursos.CD_VerCursos
+- uid: Datos.CD_Estudiante
+  name: CD_Estudiante
+  href: api/Datos.CD_Estudiante.html
+  commentId: T:Datos.CD_Estudiante
+  fullName: Datos.CD_Estudiante
+  nameWithType: CD_Estudiante
+- uid: Datos.CD_Estudiante.CD_ActualizarEstudiante(System.Int32,System.String,System.String,System.String,System.Int32,System.Int32)
+  name: CD_ActualizarEstudiante(int, string, string, string, int, int)
+  href: api/Datos.CD_Estudiante.html#Datos_CD_Estudiante_CD_ActualizarEstudiante_System_Int32_System_String_System_String_System_String_System_Int32_System_Int32_
+  commentId: M:Datos.CD_Estudiante.CD_ActualizarEstudiante(System.Int32,System.String,System.String,System.String,System.Int32,System.Int32)
+  name.vb: CD_ActualizarEstudiante(Integer, String, String, String, Integer, Integer)
+  fullName: Datos.CD_Estudiante.CD_ActualizarEstudiante(int, string, string, string, int, int)
+  fullName.vb: Datos.CD_Estudiante.CD_ActualizarEstudiante(Integer, String, String, String, Integer, Integer)
+  nameWithType: CD_Estudiante.CD_ActualizarEstudiante(int, string, string, string, int, int)
+  nameWithType.vb: CD_Estudiante.CD_ActualizarEstudiante(Integer, String, String, String, Integer, Integer)
+- uid: Datos.CD_Estudiante.CD_ActualizarEstudiante*
+  name: CD_ActualizarEstudiante
+  href: api/Datos.CD_Estudiante.html#Datos_CD_Estudiante_CD_ActualizarEstudiante_
+  commentId: Overload:Datos.CD_Estudiante.CD_ActualizarEstudiante
+  isSpec: "True"
+  fullName: Datos.CD_Estudiante.CD_ActualizarEstudiante
+  nameWithType: CD_Estudiante.CD_ActualizarEstudiante
+- uid: Datos.CD_Estudiante.CD_CrearEstudiante(System.String,System.String,System.String,System.Int32,System.Int32)
+  name: CD_CrearEstudiante(string, string, string, int, int)
+  href: api/Datos.CD_Estudiante.html#Datos_CD_Estudiante_CD_CrearEstudiante_System_String_System_String_System_String_System_Int32_System_Int32_
+  commentId: M:Datos.CD_Estudiante.CD_CrearEstudiante(System.String,System.String,System.String,System.Int32,System.Int32)
+  name.vb: CD_CrearEstudiante(String, String, String, Integer, Integer)
+  fullName: Datos.CD_Estudiante.CD_CrearEstudiante(string, string, string, int, int)
+  fullName.vb: Datos.CD_Estudiante.CD_CrearEstudiante(String, String, String, Integer, Integer)
+  nameWithType: CD_Estudiante.CD_CrearEstudiante(string, string, string, int, int)
+  nameWithType.vb: CD_Estudiante.CD_CrearEstudiante(String, String, String, Integer, Integer)
+- uid: Datos.CD_Estudiante.CD_CrearEstudiante*
+  name: CD_CrearEstudiante
+  href: api/Datos.CD_Estudiante.html#Datos_CD_Estudiante_CD_CrearEstudiante_
+  commentId: Overload:Datos.CD_Estudiante.CD_CrearEstudiante
+  isSpec: "True"
+  fullName: Datos.CD_Estudiante.CD_CrearEstudiante
+  nameWithType: CD_Estudiante.CD_CrearEstudiante
+- uid: Datos.CD_Estudiante.CD_VerEstudiantes
+  name: CD_VerEstudiantes()
+  href: api/Datos.CD_Estudiante.html#Datos_CD_Estudiante_CD_VerEstudiantes
+  commentId: M:Datos.CD_Estudiante.CD_VerEstudiantes
+  fullName: Datos.CD_Estudiante.CD_VerEstudiantes()
+  nameWithType: CD_Estudiante.CD_VerEstudiantes()
+- uid: Datos.CD_Estudiante.CD_VerEstudiantes*
+  name: CD_VerEstudiantes
+  href: api/Datos.CD_Estudiante.html#Datos_CD_Estudiante_CD_VerEstudiantes_
+  commentId: Overload:Datos.CD_Estudiante.CD_VerEstudiantes
+  isSpec: "True"
+  fullName: Datos.CD_Estudiante.CD_VerEstudiantes
+  nameWithType: CD_Estudiante.CD_VerEstudiantes
+- uid: Datos.CD_Filtros
+  name: CD_Filtros
+  href: api/Datos.CD_Filtros.html
+  commentId: T:Datos.CD_Filtros
+  fullName: Datos.CD_Filtros
+  nameWithType: CD_Filtros
+- uid: Datos.CD_Filtros.CD_AsignaturasPorCurso(System.Int32)
+  name: CD_AsignaturasPorCurso(int)
+  href: api/Datos.CD_Filtros.html#Datos_CD_Filtros_CD_AsignaturasPorCurso_System_Int32_
+  commentId: M:Datos.CD_Filtros.CD_AsignaturasPorCurso(System.Int32)
+  name.vb: CD_AsignaturasPorCurso(Integer)
+  fullName: Datos.CD_Filtros.CD_AsignaturasPorCurso(int)
+  fullName.vb: Datos.CD_Filtros.CD_AsignaturasPorCurso(Integer)
+  nameWithType: CD_Filtros.CD_AsignaturasPorCurso(int)
+  nameWithType.vb: CD_Filtros.CD_AsignaturasPorCurso(Integer)
+- uid: Datos.CD_Filtros.CD_AsignaturasPorCurso*
+  name: CD_AsignaturasPorCurso
+  href: api/Datos.CD_Filtros.html#Datos_CD_Filtros_CD_AsignaturasPorCurso_
+  commentId: Overload:Datos.CD_Filtros.CD_AsignaturasPorCurso
+  isSpec: "True"
+  fullName: Datos.CD_Filtros.CD_AsignaturasPorCurso
+  nameWithType: CD_Filtros.CD_AsignaturasPorCurso
+- uid: Datos.CD_Filtros.CD_AsistenciasPorCursoYAsignatura(System.Int32,System.Int32)
+  name: CD_AsistenciasPorCursoYAsignatura(int, int)
+  href: api/Datos.CD_Filtros.html#Datos_CD_Filtros_CD_AsistenciasPorCursoYAsignatura_System_Int32_System_Int32_
+  commentId: M:Datos.CD_Filtros.CD_AsistenciasPorCursoYAsignatura(System.Int32,System.Int32)
+  name.vb: CD_AsistenciasPorCursoYAsignatura(Integer, Integer)
+  fullName: Datos.CD_Filtros.CD_AsistenciasPorCursoYAsignatura(int, int)
+  fullName.vb: Datos.CD_Filtros.CD_AsistenciasPorCursoYAsignatura(Integer, Integer)
+  nameWithType: CD_Filtros.CD_AsistenciasPorCursoYAsignatura(int, int)
+  nameWithType.vb: CD_Filtros.CD_AsistenciasPorCursoYAsignatura(Integer, Integer)
+- uid: Datos.CD_Filtros.CD_AsistenciasPorCursoYAsignatura*
+  name: CD_AsistenciasPorCursoYAsignatura
+  href: api/Datos.CD_Filtros.html#Datos_CD_Filtros_CD_AsistenciasPorCursoYAsignatura_
+  commentId: Overload:Datos.CD_Filtros.CD_AsistenciasPorCursoYAsignatura
+  isSpec: "True"
+  fullName: Datos.CD_Filtros.CD_AsistenciasPorCursoYAsignatura
+  nameWithType: CD_Filtros.CD_AsistenciasPorCursoYAsignatura
+- uid: Datos.CD_Filtros.CD_EstudiantesPorAsignaturaYCurso(System.Int32,System.Int32)
+  name: CD_EstudiantesPorAsignaturaYCurso(int, int)
+  href: api/Datos.CD_Filtros.html#Datos_CD_Filtros_CD_EstudiantesPorAsignaturaYCurso_System_Int32_System_Int32_
+  commentId: M:Datos.CD_Filtros.CD_EstudiantesPorAsignaturaYCurso(System.Int32,System.Int32)
+  name.vb: CD_EstudiantesPorAsignaturaYCurso(Integer, Integer)
+  fullName: Datos.CD_Filtros.CD_EstudiantesPorAsignaturaYCurso(int, int)
+  fullName.vb: Datos.CD_Filtros.CD_EstudiantesPorAsignaturaYCurso(Integer, Integer)
+  nameWithType: CD_Filtros.CD_EstudiantesPorAsignaturaYCurso(int, int)
+  nameWithType.vb: CD_Filtros.CD_EstudiantesPorAsignaturaYCurso(Integer, Integer)
+- uid: Datos.CD_Filtros.CD_EstudiantesPorAsignaturaYCurso*
+  name: CD_EstudiantesPorAsignaturaYCurso
+  href: api/Datos.CD_Filtros.html#Datos_CD_Filtros_CD_EstudiantesPorAsignaturaYCurso_
+  commentId: Overload:Datos.CD_Filtros.CD_EstudiantesPorAsignaturaYCurso
+  isSpec: "True"
+  fullName: Datos.CD_Filtros.CD_EstudiantesPorAsignaturaYCurso
+  nameWithType: CD_Filtros.CD_EstudiantesPorAsignaturaYCurso
+- uid: Datos.CD_Filtros.CD_EstudiantesPorCurso(System.Int32)
+  name: CD_EstudiantesPorCurso(int)
+  href: api/Datos.CD_Filtros.html#Datos_CD_Filtros_CD_EstudiantesPorCurso_System_Int32_
+  commentId: M:Datos.CD_Filtros.CD_EstudiantesPorCurso(System.Int32)
+  name.vb: CD_EstudiantesPorCurso(Integer)
+  fullName: Datos.CD_Filtros.CD_EstudiantesPorCurso(int)
+  fullName.vb: Datos.CD_Filtros.CD_EstudiantesPorCurso(Integer)
+  nameWithType: CD_Filtros.CD_EstudiantesPorCurso(int)
+  nameWithType.vb: CD_Filtros.CD_EstudiantesPorCurso(Integer)
+- uid: Datos.CD_Filtros.CD_EstudiantesPorCurso*
+  name: CD_EstudiantesPorCurso
+  href: api/Datos.CD_Filtros.html#Datos_CD_Filtros_CD_EstudiantesPorCurso_
+  commentId: Overload:Datos.CD_Filtros.CD_EstudiantesPorCurso
+  isSpec: "True"
+  fullName: Datos.CD_Filtros.CD_EstudiantesPorCurso
+  nameWithType: CD_Filtros.CD_EstudiantesPorCurso
+- uid: Datos.CD_Usuario
+  name: CD_Usuario
+  href: api/Datos.CD_Usuario.html
+  commentId: T:Datos.CD_Usuario
+  fullName: Datos.CD_Usuario
+  nameWithType: CD_Usuario
+- uid: Datos.CD_Usuario.RegistrarUsuario(System.String,System.String,System.String)
+  name: RegistrarUsuario(string, string, string)
+  href: api/Datos.CD_Usuario.html#Datos_CD_Usuario_RegistrarUsuario_System_String_System_String_System_String_
+  commentId: M:Datos.CD_Usuario.RegistrarUsuario(System.String,System.String,System.String)
+  name.vb: RegistrarUsuario(String, String, String)
+  fullName: Datos.CD_Usuario.RegistrarUsuario(string, string, string)
+  fullName.vb: Datos.CD_Usuario.RegistrarUsuario(String, String, String)
+  nameWithType: CD_Usuario.RegistrarUsuario(string, string, string)
+  nameWithType.vb: CD_Usuario.RegistrarUsuario(String, String, String)
+- uid: Datos.CD_Usuario.RegistrarUsuario*
+  name: RegistrarUsuario
+  href: api/Datos.CD_Usuario.html#Datos_CD_Usuario_RegistrarUsuario_
+  commentId: Overload:Datos.CD_Usuario.RegistrarUsuario
+  isSpec: "True"
+  fullName: Datos.CD_Usuario.RegistrarUsuario
+  nameWithType: CD_Usuario.RegistrarUsuario
+- uid: Datos.CD_Usuario.ValidarUsuario(System.String,System.String)
+  name: ValidarUsuario(string, string)
+  href: api/Datos.CD_Usuario.html#Datos_CD_Usuario_ValidarUsuario_System_String_System_String_
+  commentId: M:Datos.CD_Usuario.ValidarUsuario(System.String,System.String)
+  name.vb: ValidarUsuario(String, String)
+  fullName: Datos.CD_Usuario.ValidarUsuario(string, string)
+  fullName.vb: Datos.CD_Usuario.ValidarUsuario(String, String)
+  nameWithType: CD_Usuario.ValidarUsuario(string, string)
+  nameWithType.vb: CD_Usuario.ValidarUsuario(String, String)
+- uid: Datos.CD_Usuario.ValidarUsuario*
+  name: ValidarUsuario
+  href: api/Datos.CD_Usuario.html#Datos_CD_Usuario_ValidarUsuario_
+  commentId: Overload:Datos.CD_Usuario.ValidarUsuario
+  isSpec: "True"
+  fullName: Datos.CD_Usuario.ValidarUsuario
+  nameWithType: CD_Usuario.ValidarUsuario
+- uid: Datos.Class1
+  name: Class1
+  href: api/Datos.Class1.html
+  commentId: T:Datos.Class1
+  fullName: Datos.Class1
+  nameWithType: Class1
+- uid: Datos.DataSet1
+  name: DataSet1
+  href: api/Datos.DataSet1.html
+  commentId: T:Datos.DataSet1
+  fullName: Datos.DataSet1
+  nameWithType: DataSet1
+- uid: Datos.DataSet1.#ctor
+  name: DataSet1()
+  href: api/Datos.DataSet1.html#Datos_DataSet1__ctor
+  commentId: M:Datos.DataSet1.#ctor
+  name.vb: New()
+  fullName: Datos.DataSet1.DataSet1()
+  fullName.vb: Datos.DataSet1.New()
+  nameWithType: DataSet1.DataSet1()
+  nameWithType.vb: DataSet1.New()
+- uid: Datos.DataSet1.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: DataSet1(SerializationInfo, StreamingContext)
+  href: api/Datos.DataSet1.html#Datos_DataSet1__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:Datos.DataSet1.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name.vb: New(SerializationInfo, StreamingContext)
+  fullName: Datos.DataSet1.DataSet1(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  fullName.vb: Datos.DataSet1.New(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: DataSet1.DataSet1(SerializationInfo, StreamingContext)
+  nameWithType.vb: DataSet1.New(SerializationInfo, StreamingContext)
+- uid: Datos.DataSet1.#ctor*
+  name: DataSet1
+  href: api/Datos.DataSet1.html#Datos_DataSet1__ctor_
+  commentId: Overload:Datos.DataSet1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Datos.DataSet1.DataSet1
+  fullName.vb: Datos.DataSet1.New
+  nameWithType: DataSet1.DataSet1
+  nameWithType.vb: DataSet1.New
+- uid: Datos.DataSet1.Clone
+  name: Clone()
+  href: api/Datos.DataSet1.html#Datos_DataSet1_Clone
+  commentId: M:Datos.DataSet1.Clone
+  fullName: Datos.DataSet1.Clone()
+  nameWithType: DataSet1.Clone()
+- uid: Datos.DataSet1.Clone*
+  name: Clone
+  href: api/Datos.DataSet1.html#Datos_DataSet1_Clone_
+  commentId: Overload:Datos.DataSet1.Clone
+  isSpec: "True"
+  fullName: Datos.DataSet1.Clone
+  nameWithType: DataSet1.Clone
+- uid: Datos.DataSet1.GetSchemaSerializable
+  name: GetSchemaSerializable()
+  href: api/Datos.DataSet1.html#Datos_DataSet1_GetSchemaSerializable
+  commentId: M:Datos.DataSet1.GetSchemaSerializable
+  fullName: Datos.DataSet1.GetSchemaSerializable()
+  nameWithType: DataSet1.GetSchemaSerializable()
+- uid: Datos.DataSet1.GetSchemaSerializable*
+  name: GetSchemaSerializable
+  href: api/Datos.DataSet1.html#Datos_DataSet1_GetSchemaSerializable_
+  commentId: Overload:Datos.DataSet1.GetSchemaSerializable
+  isSpec: "True"
+  fullName: Datos.DataSet1.GetSchemaSerializable
+  nameWithType: DataSet1.GetSchemaSerializable
+- uid: Datos.DataSet1.GetTypedDataSetSchema(System.Xml.Schema.XmlSchemaSet)
+  name: GetTypedDataSetSchema(XmlSchemaSet)
+  href: api/Datos.DataSet1.html#Datos_DataSet1_GetTypedDataSetSchema_System_Xml_Schema_XmlSchemaSet_
+  commentId: M:Datos.DataSet1.GetTypedDataSetSchema(System.Xml.Schema.XmlSchemaSet)
+  fullName: Datos.DataSet1.GetTypedDataSetSchema(System.Xml.Schema.XmlSchemaSet)
+  nameWithType: DataSet1.GetTypedDataSetSchema(XmlSchemaSet)
+- uid: Datos.DataSet1.GetTypedDataSetSchema*
+  name: GetTypedDataSetSchema
+  href: api/Datos.DataSet1.html#Datos_DataSet1_GetTypedDataSetSchema_
+  commentId: Overload:Datos.DataSet1.GetTypedDataSetSchema
+  isSpec: "True"
+  fullName: Datos.DataSet1.GetTypedDataSetSchema
+  nameWithType: DataSet1.GetTypedDataSetSchema
+- uid: Datos.DataSet1.InitializeDerivedDataSet
+  name: InitializeDerivedDataSet()
+  href: api/Datos.DataSet1.html#Datos_DataSet1_InitializeDerivedDataSet
+  commentId: M:Datos.DataSet1.InitializeDerivedDataSet
+  fullName: Datos.DataSet1.InitializeDerivedDataSet()
+  nameWithType: DataSet1.InitializeDerivedDataSet()
+- uid: Datos.DataSet1.InitializeDerivedDataSet*
+  name: InitializeDerivedDataSet
+  href: api/Datos.DataSet1.html#Datos_DataSet1_InitializeDerivedDataSet_
+  commentId: Overload:Datos.DataSet1.InitializeDerivedDataSet
+  isSpec: "True"
+  fullName: Datos.DataSet1.InitializeDerivedDataSet
+  nameWithType: DataSet1.InitializeDerivedDataSet
+- uid: Datos.DataSet1.ReadXmlSerializable(System.Xml.XmlReader)
+  name: ReadXmlSerializable(XmlReader)
+  href: api/Datos.DataSet1.html#Datos_DataSet1_ReadXmlSerializable_System_Xml_XmlReader_
+  commentId: M:Datos.DataSet1.ReadXmlSerializable(System.Xml.XmlReader)
+  fullName: Datos.DataSet1.ReadXmlSerializable(System.Xml.XmlReader)
+  nameWithType: DataSet1.ReadXmlSerializable(XmlReader)
+- uid: Datos.DataSet1.ReadXmlSerializable*
+  name: ReadXmlSerializable
+  href: api/Datos.DataSet1.html#Datos_DataSet1_ReadXmlSerializable_
+  commentId: Overload:Datos.DataSet1.ReadXmlSerializable
+  isSpec: "True"
+  fullName: Datos.DataSet1.ReadXmlSerializable
+  nameWithType: DataSet1.ReadXmlSerializable
+- uid: Datos.DataSet1.Relations
+  name: Relations
+  href: api/Datos.DataSet1.html#Datos_DataSet1_Relations
+  commentId: P:Datos.DataSet1.Relations
+  fullName: Datos.DataSet1.Relations
+  nameWithType: DataSet1.Relations
+- uid: Datos.DataSet1.Relations*
+  name: Relations
+  href: api/Datos.DataSet1.html#Datos_DataSet1_Relations_
+  commentId: Overload:Datos.DataSet1.Relations
+  isSpec: "True"
+  fullName: Datos.DataSet1.Relations
+  nameWithType: DataSet1.Relations
+- uid: Datos.DataSet1.SchemaSerializationMode
+  name: SchemaSerializationMode
+  href: api/Datos.DataSet1.html#Datos_DataSet1_SchemaSerializationMode
+  commentId: P:Datos.DataSet1.SchemaSerializationMode
+  fullName: Datos.DataSet1.SchemaSerializationMode
+  nameWithType: DataSet1.SchemaSerializationMode
+- uid: Datos.DataSet1.SchemaSerializationMode*
+  name: SchemaSerializationMode
+  href: api/Datos.DataSet1.html#Datos_DataSet1_SchemaSerializationMode_
+  commentId: Overload:Datos.DataSet1.SchemaSerializationMode
+  isSpec: "True"
+  fullName: Datos.DataSet1.SchemaSerializationMode
+  nameWithType: DataSet1.SchemaSerializationMode
+- uid: Datos.DataSet1.ShouldSerializeRelations
+  name: ShouldSerializeRelations()
+  href: api/Datos.DataSet1.html#Datos_DataSet1_ShouldSerializeRelations
+  commentId: M:Datos.DataSet1.ShouldSerializeRelations
+  fullName: Datos.DataSet1.ShouldSerializeRelations()
+  nameWithType: DataSet1.ShouldSerializeRelations()
+- uid: Datos.DataSet1.ShouldSerializeRelations*
+  name: ShouldSerializeRelations
+  href: api/Datos.DataSet1.html#Datos_DataSet1_ShouldSerializeRelations_
+  commentId: Overload:Datos.DataSet1.ShouldSerializeRelations
+  isSpec: "True"
+  fullName: Datos.DataSet1.ShouldSerializeRelations
+  nameWithType: DataSet1.ShouldSerializeRelations
+- uid: Datos.DataSet1.ShouldSerializeTables
+  name: ShouldSerializeTables()
+  href: api/Datos.DataSet1.html#Datos_DataSet1_ShouldSerializeTables
+  commentId: M:Datos.DataSet1.ShouldSerializeTables
+  fullName: Datos.DataSet1.ShouldSerializeTables()
+  nameWithType: DataSet1.ShouldSerializeTables()
+- uid: Datos.DataSet1.ShouldSerializeTables*
+  name: ShouldSerializeTables
+  href: api/Datos.DataSet1.html#Datos_DataSet1_ShouldSerializeTables_
+  commentId: Overload:Datos.DataSet1.ShouldSerializeTables
+  isSpec: "True"
+  fullName: Datos.DataSet1.ShouldSerializeTables
+  nameWithType: DataSet1.ShouldSerializeTables
+- uid: Datos.DataSet1.Tables
+  name: Tables
+  href: api/Datos.DataSet1.html#Datos_DataSet1_Tables
+  commentId: P:Datos.DataSet1.Tables
+  fullName: Datos.DataSet1.Tables
+  nameWithType: DataSet1.Tables
+- uid: Datos.DataSet1.Tables*
+  name: Tables
+  href: api/Datos.DataSet1.html#Datos_DataSet1_Tables_
+  commentId: Overload:Datos.DataSet1.Tables
+  isSpec: "True"
+  fullName: Datos.DataSet1.Tables
+  nameWithType: DataSet1.Tables
+- uid: Negocio
+  name: Negocio
+  href: api/Negocio.html
+  commentId: N:Negocio
+  fullName: Negocio
+  nameWithType: Negocio
+- uid: Negocio.CN_Asignatura
+  name: CN_Asignatura
+  href: api/Negocio.CN_Asignatura.html
+  commentId: T:Negocio.CN_Asignatura
+  fullName: Negocio.CN_Asignatura
+  nameWithType: CN_Asignatura
+- uid: Negocio.CN_Asignatura.CN_ActualizarAsignatura(System.Int32,System.Int32,System.String,System.Int32)
+  name: CN_ActualizarAsignatura(int, int, string, int)
+  href: api/Negocio.CN_Asignatura.html#Negocio_CN_Asignatura_CN_ActualizarAsignatura_System_Int32_System_Int32_System_String_System_Int32_
+  commentId: M:Negocio.CN_Asignatura.CN_ActualizarAsignatura(System.Int32,System.Int32,System.String,System.Int32)
+  name.vb: CN_ActualizarAsignatura(Integer, Integer, String, Integer)
+  fullName: Negocio.CN_Asignatura.CN_ActualizarAsignatura(int, int, string, int)
+  fullName.vb: Negocio.CN_Asignatura.CN_ActualizarAsignatura(Integer, Integer, String, Integer)
+  nameWithType: CN_Asignatura.CN_ActualizarAsignatura(int, int, string, int)
+  nameWithType.vb: CN_Asignatura.CN_ActualizarAsignatura(Integer, Integer, String, Integer)
+- uid: Negocio.CN_Asignatura.CN_ActualizarAsignatura*
+  name: CN_ActualizarAsignatura
+  href: api/Negocio.CN_Asignatura.html#Negocio_CN_Asignatura_CN_ActualizarAsignatura_
+  commentId: Overload:Negocio.CN_Asignatura.CN_ActualizarAsignatura
+  isSpec: "True"
+  fullName: Negocio.CN_Asignatura.CN_ActualizarAsignatura
+  nameWithType: CN_Asignatura.CN_ActualizarAsignatura
+- uid: Negocio.CN_Asignatura.CN_CrearAsignatura(System.Int32,System.String,System.Int32)
+  name: CN_CrearAsignatura(int, string, int)
+  href: api/Negocio.CN_Asignatura.html#Negocio_CN_Asignatura_CN_CrearAsignatura_System_Int32_System_String_System_Int32_
+  commentId: M:Negocio.CN_Asignatura.CN_CrearAsignatura(System.Int32,System.String,System.Int32)
+  name.vb: CN_CrearAsignatura(Integer, String, Integer)
+  fullName: Negocio.CN_Asignatura.CN_CrearAsignatura(int, string, int)
+  fullName.vb: Negocio.CN_Asignatura.CN_CrearAsignatura(Integer, String, Integer)
+  nameWithType: CN_Asignatura.CN_CrearAsignatura(int, string, int)
+  nameWithType.vb: CN_Asignatura.CN_CrearAsignatura(Integer, String, Integer)
+- uid: Negocio.CN_Asignatura.CN_CrearAsignatura*
+  name: CN_CrearAsignatura
+  href: api/Negocio.CN_Asignatura.html#Negocio_CN_Asignatura_CN_CrearAsignatura_
+  commentId: Overload:Negocio.CN_Asignatura.CN_CrearAsignatura
+  isSpec: "True"
+  fullName: Negocio.CN_Asignatura.CN_CrearAsignatura
+  nameWithType: CN_Asignatura.CN_CrearAsignatura
+- uid: Negocio.CN_Asignatura.CN_VerAsignaturas
+  name: CN_VerAsignaturas()
+  href: api/Negocio.CN_Asignatura.html#Negocio_CN_Asignatura_CN_VerAsignaturas
+  commentId: M:Negocio.CN_Asignatura.CN_VerAsignaturas
+  fullName: Negocio.CN_Asignatura.CN_VerAsignaturas()
+  nameWithType: CN_Asignatura.CN_VerAsignaturas()
+- uid: Negocio.CN_Asignatura.CN_VerAsignaturas*
+  name: CN_VerAsignaturas
+  href: api/Negocio.CN_Asignatura.html#Negocio_CN_Asignatura_CN_VerAsignaturas_
+  commentId: Overload:Negocio.CN_Asignatura.CN_VerAsignaturas
+  isSpec: "True"
+  fullName: Negocio.CN_Asignatura.CN_VerAsignaturas
+  nameWithType: CN_Asignatura.CN_VerAsignaturas
+- uid: Negocio.CN_Asistencia
+  name: CN_Asistencia
+  href: api/Negocio.CN_Asistencia.html
+  commentId: T:Negocio.CN_Asistencia
+  fullName: Negocio.CN_Asistencia
+  nameWithType: CN_Asistencia
+- uid: Negocio.CN_Asistencia.CN_ActualizarAsistencia(System.Int32,System.Int32,System.Int32,System.DateTime,System.Boolean,System.Int32)
+  name: CN_ActualizarAsistencia(int, int, int, DateTime, bool, int)
+  href: api/Negocio.CN_Asistencia.html#Negocio_CN_Asistencia_CN_ActualizarAsistencia_System_Int32_System_Int32_System_Int32_System_DateTime_System_Boolean_System_Int32_
+  commentId: M:Negocio.CN_Asistencia.CN_ActualizarAsistencia(System.Int32,System.Int32,System.Int32,System.DateTime,System.Boolean,System.Int32)
+  name.vb: CN_ActualizarAsistencia(Integer, Integer, Integer, Date, Boolean, Integer)
+  fullName: Negocio.CN_Asistencia.CN_ActualizarAsistencia(int, int, int, System.DateTime, bool, int)
+  fullName.vb: Negocio.CN_Asistencia.CN_ActualizarAsistencia(Integer, Integer, Integer, Date, Boolean, Integer)
+  nameWithType: CN_Asistencia.CN_ActualizarAsistencia(int, int, int, DateTime, bool, int)
+  nameWithType.vb: CN_Asistencia.CN_ActualizarAsistencia(Integer, Integer, Integer, Date, Boolean, Integer)
+- uid: Negocio.CN_Asistencia.CN_ActualizarAsistencia*
+  name: CN_ActualizarAsistencia
+  href: api/Negocio.CN_Asistencia.html#Negocio_CN_Asistencia_CN_ActualizarAsistencia_
+  commentId: Overload:Negocio.CN_Asistencia.CN_ActualizarAsistencia
+  isSpec: "True"
+  fullName: Negocio.CN_Asistencia.CN_ActualizarAsistencia
+  nameWithType: CN_Asistencia.CN_ActualizarAsistencia
+- uid: Negocio.CN_Asistencia.CN_IngresarAsistencia(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Int32)
+  name: CN_IngresarAsistencia(int, int, DateTime, bool, int)
+  href: api/Negocio.CN_Asistencia.html#Negocio_CN_Asistencia_CN_IngresarAsistencia_System_Int32_System_Int32_System_DateTime_System_Boolean_System_Int32_
+  commentId: M:Negocio.CN_Asistencia.CN_IngresarAsistencia(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Int32)
+  name.vb: CN_IngresarAsistencia(Integer, Integer, Date, Boolean, Integer)
+  fullName: Negocio.CN_Asistencia.CN_IngresarAsistencia(int, int, System.DateTime, bool, int)
+  fullName.vb: Negocio.CN_Asistencia.CN_IngresarAsistencia(Integer, Integer, Date, Boolean, Integer)
+  nameWithType: CN_Asistencia.CN_IngresarAsistencia(int, int, DateTime, bool, int)
+  nameWithType.vb: CN_Asistencia.CN_IngresarAsistencia(Integer, Integer, Date, Boolean, Integer)
+- uid: Negocio.CN_Asistencia.CN_IngresarAsistencia*
+  name: CN_IngresarAsistencia
+  href: api/Negocio.CN_Asistencia.html#Negocio_CN_Asistencia_CN_IngresarAsistencia_
+  commentId: Overload:Negocio.CN_Asistencia.CN_IngresarAsistencia
+  isSpec: "True"
+  fullName: Negocio.CN_Asistencia.CN_IngresarAsistencia
+  nameWithType: CN_Asistencia.CN_IngresarAsistencia
+- uid: Negocio.CN_Asistencia.CN_VerAsistencias
+  name: CN_VerAsistencias()
+  href: api/Negocio.CN_Asistencia.html#Negocio_CN_Asistencia_CN_VerAsistencias
+  commentId: M:Negocio.CN_Asistencia.CN_VerAsistencias
+  fullName: Negocio.CN_Asistencia.CN_VerAsistencias()
+  nameWithType: CN_Asistencia.CN_VerAsistencias()
+- uid: Negocio.CN_Asistencia.CN_VerAsistencias*
+  name: CN_VerAsistencias
+  href: api/Negocio.CN_Asistencia.html#Negocio_CN_Asistencia_CN_VerAsistencias_
+  commentId: Overload:Negocio.CN_Asistencia.CN_VerAsistencias
+  isSpec: "True"
+  fullName: Negocio.CN_Asistencia.CN_VerAsistencias
+  nameWithType: CN_Asistencia.CN_VerAsistencias
+- uid: Negocio.CN_Calificacion
+  name: CN_Calificacion
+  href: api/Negocio.CN_Calificacion.html
+  commentId: T:Negocio.CN_Calificacion
+  fullName: Negocio.CN_Calificacion
+  nameWithType: CN_Calificacion
+- uid: Negocio.CN_Calificacion.CN_ActualizarCalificacion(System.Int32,System.Int32,System.Int32,System.Decimal,System.DateTime,System.Int32)
+  name: CN_ActualizarCalificacion(int, int, int, decimal, DateTime, int)
+  href: api/Negocio.CN_Calificacion.html#Negocio_CN_Calificacion_CN_ActualizarCalificacion_System_Int32_System_Int32_System_Int32_System_Decimal_System_DateTime_System_Int32_
+  commentId: M:Negocio.CN_Calificacion.CN_ActualizarCalificacion(System.Int32,System.Int32,System.Int32,System.Decimal,System.DateTime,System.Int32)
+  name.vb: CN_ActualizarCalificacion(Integer, Integer, Integer, Decimal, Date, Integer)
+  fullName: Negocio.CN_Calificacion.CN_ActualizarCalificacion(int, int, int, decimal, System.DateTime, int)
+  fullName.vb: Negocio.CN_Calificacion.CN_ActualizarCalificacion(Integer, Integer, Integer, Decimal, Date, Integer)
+  nameWithType: CN_Calificacion.CN_ActualizarCalificacion(int, int, int, decimal, DateTime, int)
+  nameWithType.vb: CN_Calificacion.CN_ActualizarCalificacion(Integer, Integer, Integer, Decimal, Date, Integer)
+- uid: Negocio.CN_Calificacion.CN_ActualizarCalificacion*
+  name: CN_ActualizarCalificacion
+  href: api/Negocio.CN_Calificacion.html#Negocio_CN_Calificacion_CN_ActualizarCalificacion_
+  commentId: Overload:Negocio.CN_Calificacion.CN_ActualizarCalificacion
+  isSpec: "True"
+  fullName: Negocio.CN_Calificacion.CN_ActualizarCalificacion
+  nameWithType: CN_Calificacion.CN_ActualizarCalificacion
+- uid: Negocio.CN_Calificacion.CN_IngresarCalificacion(System.Int32,System.Int32,System.Decimal,System.DateTime,System.Int32)
+  name: CN_IngresarCalificacion(int, int, decimal, DateTime, int)
+  href: api/Negocio.CN_Calificacion.html#Negocio_CN_Calificacion_CN_IngresarCalificacion_System_Int32_System_Int32_System_Decimal_System_DateTime_System_Int32_
+  commentId: M:Negocio.CN_Calificacion.CN_IngresarCalificacion(System.Int32,System.Int32,System.Decimal,System.DateTime,System.Int32)
+  name.vb: CN_IngresarCalificacion(Integer, Integer, Decimal, Date, Integer)
+  fullName: Negocio.CN_Calificacion.CN_IngresarCalificacion(int, int, decimal, System.DateTime, int)
+  fullName.vb: Negocio.CN_Calificacion.CN_IngresarCalificacion(Integer, Integer, Decimal, Date, Integer)
+  nameWithType: CN_Calificacion.CN_IngresarCalificacion(int, int, decimal, DateTime, int)
+  nameWithType.vb: CN_Calificacion.CN_IngresarCalificacion(Integer, Integer, Decimal, Date, Integer)
+- uid: Negocio.CN_Calificacion.CN_IngresarCalificacion*
+  name: CN_IngresarCalificacion
+  href: api/Negocio.CN_Calificacion.html#Negocio_CN_Calificacion_CN_IngresarCalificacion_
+  commentId: Overload:Negocio.CN_Calificacion.CN_IngresarCalificacion
+  isSpec: "True"
+  fullName: Negocio.CN_Calificacion.CN_IngresarCalificacion
+  nameWithType: CN_Calificacion.CN_IngresarCalificacion
+- uid: Negocio.CN_Calificacion.CN_VerCalificaciones
+  name: CN_VerCalificaciones()
+  href: api/Negocio.CN_Calificacion.html#Negocio_CN_Calificacion_CN_VerCalificaciones
+  commentId: M:Negocio.CN_Calificacion.CN_VerCalificaciones
+  fullName: Negocio.CN_Calificacion.CN_VerCalificaciones()
+  nameWithType: CN_Calificacion.CN_VerCalificaciones()
+- uid: Negocio.CN_Calificacion.CN_VerCalificaciones*
+  name: CN_VerCalificaciones
+  href: api/Negocio.CN_Calificacion.html#Negocio_CN_Calificacion_CN_VerCalificaciones_
+  commentId: Overload:Negocio.CN_Calificacion.CN_VerCalificaciones
+  isSpec: "True"
+  fullName: Negocio.CN_Calificacion.CN_VerCalificaciones
+  nameWithType: CN_Calificacion.CN_VerCalificaciones
+- uid: Negocio.CN_Conexion
+  name: CN_Conexion
+  href: api/Negocio.CN_Conexion.html
+  commentId: T:Negocio.CN_Conexion
+  fullName: Negocio.CN_Conexion
+  nameWithType: CN_Conexion
+- uid: Negocio.CN_Conexion.CN_VerificarConexion
+  name: CN_VerificarConexion()
+  href: api/Negocio.CN_Conexion.html#Negocio_CN_Conexion_CN_VerificarConexion
+  commentId: M:Negocio.CN_Conexion.CN_VerificarConexion
+  fullName: Negocio.CN_Conexion.CN_VerificarConexion()
+  nameWithType: CN_Conexion.CN_VerificarConexion()
+- uid: Negocio.CN_Conexion.CN_VerificarConexion*
+  name: CN_VerificarConexion
+  href: api/Negocio.CN_Conexion.html#Negocio_CN_Conexion_CN_VerificarConexion_
+  commentId: Overload:Negocio.CN_Conexion.CN_VerificarConexion
+  isSpec: "True"
+  fullName: Negocio.CN_Conexion.CN_VerificarConexion
+  nameWithType: CN_Conexion.CN_VerificarConexion
+- uid: Negocio.CN_Cursos
+  name: CN_Cursos
+  href: api/Negocio.CN_Cursos.html
+  commentId: T:Negocio.CN_Cursos
+  fullName: Negocio.CN_Cursos
+  nameWithType: CN_Cursos
+- uid: Negocio.CN_Cursos.CN_ActualizarCurso(System.Int32,System.String,System.Int32)
+  name: CN_ActualizarCurso(int, string, int)
+  href: api/Negocio.CN_Cursos.html#Negocio_CN_Cursos_CN_ActualizarCurso_System_Int32_System_String_System_Int32_
+  commentId: M:Negocio.CN_Cursos.CN_ActualizarCurso(System.Int32,System.String,System.Int32)
+  name.vb: CN_ActualizarCurso(Integer, String, Integer)
+  fullName: Negocio.CN_Cursos.CN_ActualizarCurso(int, string, int)
+  fullName.vb: Negocio.CN_Cursos.CN_ActualizarCurso(Integer, String, Integer)
+  nameWithType: CN_Cursos.CN_ActualizarCurso(int, string, int)
+  nameWithType.vb: CN_Cursos.CN_ActualizarCurso(Integer, String, Integer)
+- uid: Negocio.CN_Cursos.CN_ActualizarCurso*
+  name: CN_ActualizarCurso
+  href: api/Negocio.CN_Cursos.html#Negocio_CN_Cursos_CN_ActualizarCurso_
+  commentId: Overload:Negocio.CN_Cursos.CN_ActualizarCurso
+  isSpec: "True"
+  fullName: Negocio.CN_Cursos.CN_ActualizarCurso
+  nameWithType: CN_Cursos.CN_ActualizarCurso
+- uid: Negocio.CN_Cursos.CN_CrearCurso(System.String,System.Int32)
+  name: CN_CrearCurso(string, int)
+  href: api/Negocio.CN_Cursos.html#Negocio_CN_Cursos_CN_CrearCurso_System_String_System_Int32_
+  commentId: M:Negocio.CN_Cursos.CN_CrearCurso(System.String,System.Int32)
+  name.vb: CN_CrearCurso(String, Integer)
+  fullName: Negocio.CN_Cursos.CN_CrearCurso(string, int)
+  fullName.vb: Negocio.CN_Cursos.CN_CrearCurso(String, Integer)
+  nameWithType: CN_Cursos.CN_CrearCurso(string, int)
+  nameWithType.vb: CN_Cursos.CN_CrearCurso(String, Integer)
+- uid: Negocio.CN_Cursos.CN_CrearCurso*
+  name: CN_CrearCurso
+  href: api/Negocio.CN_Cursos.html#Negocio_CN_Cursos_CN_CrearCurso_
+  commentId: Overload:Negocio.CN_Cursos.CN_CrearCurso
+  isSpec: "True"
+  fullName: Negocio.CN_Cursos.CN_CrearCurso
+  nameWithType: CN_Cursos.CN_CrearCurso
+- uid: Negocio.CN_Cursos.CN_VerCursos
+  name: CN_VerCursos()
+  href: api/Negocio.CN_Cursos.html#Negocio_CN_Cursos_CN_VerCursos
+  commentId: M:Negocio.CN_Cursos.CN_VerCursos
+  fullName: Negocio.CN_Cursos.CN_VerCursos()
+  nameWithType: CN_Cursos.CN_VerCursos()
+- uid: Negocio.CN_Cursos.CN_VerCursos*
+  name: CN_VerCursos
+  href: api/Negocio.CN_Cursos.html#Negocio_CN_Cursos_CN_VerCursos_
+  commentId: Overload:Negocio.CN_Cursos.CN_VerCursos
+  isSpec: "True"
+  fullName: Negocio.CN_Cursos.CN_VerCursos
+  nameWithType: CN_Cursos.CN_VerCursos
+- uid: Negocio.CN_Estudiante
+  name: CN_Estudiante
+  href: api/Negocio.CN_Estudiante.html
+  commentId: T:Negocio.CN_Estudiante
+  fullName: Negocio.CN_Estudiante
+  nameWithType: CN_Estudiante
+- uid: Negocio.CN_Estudiante.CN_ActualizarEstudiante(System.Int32,System.String,System.String,System.String,System.Int32,System.Int32)
+  name: CN_ActualizarEstudiante(int, string, string, string, int, int)
+  href: api/Negocio.CN_Estudiante.html#Negocio_CN_Estudiante_CN_ActualizarEstudiante_System_Int32_System_String_System_String_System_String_System_Int32_System_Int32_
+  commentId: M:Negocio.CN_Estudiante.CN_ActualizarEstudiante(System.Int32,System.String,System.String,System.String,System.Int32,System.Int32)
+  name.vb: CN_ActualizarEstudiante(Integer, String, String, String, Integer, Integer)
+  fullName: Negocio.CN_Estudiante.CN_ActualizarEstudiante(int, string, string, string, int, int)
+  fullName.vb: Negocio.CN_Estudiante.CN_ActualizarEstudiante(Integer, String, String, String, Integer, Integer)
+  nameWithType: CN_Estudiante.CN_ActualizarEstudiante(int, string, string, string, int, int)
+  nameWithType.vb: CN_Estudiante.CN_ActualizarEstudiante(Integer, String, String, String, Integer, Integer)
+- uid: Negocio.CN_Estudiante.CN_ActualizarEstudiante*
+  name: CN_ActualizarEstudiante
+  href: api/Negocio.CN_Estudiante.html#Negocio_CN_Estudiante_CN_ActualizarEstudiante_
+  commentId: Overload:Negocio.CN_Estudiante.CN_ActualizarEstudiante
+  isSpec: "True"
+  fullName: Negocio.CN_Estudiante.CN_ActualizarEstudiante
+  nameWithType: CN_Estudiante.CN_ActualizarEstudiante
+- uid: Negocio.CN_Estudiante.CN_CrearEstudiante(System.String,System.String,System.String,System.Int32,System.Int32)
+  name: CN_CrearEstudiante(string, string, string, int, int)
+  href: api/Negocio.CN_Estudiante.html#Negocio_CN_Estudiante_CN_CrearEstudiante_System_String_System_String_System_String_System_Int32_System_Int32_
+  commentId: M:Negocio.CN_Estudiante.CN_CrearEstudiante(System.String,System.String,System.String,System.Int32,System.Int32)
+  name.vb: CN_CrearEstudiante(String, String, String, Integer, Integer)
+  fullName: Negocio.CN_Estudiante.CN_CrearEstudiante(string, string, string, int, int)
+  fullName.vb: Negocio.CN_Estudiante.CN_CrearEstudiante(String, String, String, Integer, Integer)
+  nameWithType: CN_Estudiante.CN_CrearEstudiante(string, string, string, int, int)
+  nameWithType.vb: CN_Estudiante.CN_CrearEstudiante(String, String, String, Integer, Integer)
+- uid: Negocio.CN_Estudiante.CN_CrearEstudiante*
+  name: CN_CrearEstudiante
+  href: api/Negocio.CN_Estudiante.html#Negocio_CN_Estudiante_CN_CrearEstudiante_
+  commentId: Overload:Negocio.CN_Estudiante.CN_CrearEstudiante
+  isSpec: "True"
+  fullName: Negocio.CN_Estudiante.CN_CrearEstudiante
+  nameWithType: CN_Estudiante.CN_CrearEstudiante
+- uid: Negocio.CN_Estudiante.CN_VerEstudiantes
+  name: CN_VerEstudiantes()
+  href: api/Negocio.CN_Estudiante.html#Negocio_CN_Estudiante_CN_VerEstudiantes
+  commentId: M:Negocio.CN_Estudiante.CN_VerEstudiantes
+  fullName: Negocio.CN_Estudiante.CN_VerEstudiantes()
+  nameWithType: CN_Estudiante.CN_VerEstudiantes()
+- uid: Negocio.CN_Estudiante.CN_VerEstudiantes*
+  name: CN_VerEstudiantes
+  href: api/Negocio.CN_Estudiante.html#Negocio_CN_Estudiante_CN_VerEstudiantes_
+  commentId: Overload:Negocio.CN_Estudiante.CN_VerEstudiantes
+  isSpec: "True"
+  fullName: Negocio.CN_Estudiante.CN_VerEstudiantes
+  nameWithType: CN_Estudiante.CN_VerEstudiantes
+- uid: Negocio.CN_Filtros
+  name: CN_Filtros
+  href: api/Negocio.CN_Filtros.html
+  commentId: T:Negocio.CN_Filtros
+  fullName: Negocio.CN_Filtros
+  nameWithType: CN_Filtros
+- uid: Negocio.CN_Filtros.CN_AsignaturasPorCurso(System.Int32)
+  name: CN_AsignaturasPorCurso(int)
+  href: api/Negocio.CN_Filtros.html#Negocio_CN_Filtros_CN_AsignaturasPorCurso_System_Int32_
+  commentId: M:Negocio.CN_Filtros.CN_AsignaturasPorCurso(System.Int32)
+  name.vb: CN_AsignaturasPorCurso(Integer)
+  fullName: Negocio.CN_Filtros.CN_AsignaturasPorCurso(int)
+  fullName.vb: Negocio.CN_Filtros.CN_AsignaturasPorCurso(Integer)
+  nameWithType: CN_Filtros.CN_AsignaturasPorCurso(int)
+  nameWithType.vb: CN_Filtros.CN_AsignaturasPorCurso(Integer)
+- uid: Negocio.CN_Filtros.CN_AsignaturasPorCurso*
+  name: CN_AsignaturasPorCurso
+  href: api/Negocio.CN_Filtros.html#Negocio_CN_Filtros_CN_AsignaturasPorCurso_
+  commentId: Overload:Negocio.CN_Filtros.CN_AsignaturasPorCurso
+  isSpec: "True"
+  fullName: Negocio.CN_Filtros.CN_AsignaturasPorCurso
+  nameWithType: CN_Filtros.CN_AsignaturasPorCurso
+- uid: Negocio.CN_Filtros.CN_AsistenciasPorCursoYAsignatura(System.Int32,System.Int32)
+  name: CN_AsistenciasPorCursoYAsignatura(int, int)
+  href: api/Negocio.CN_Filtros.html#Negocio_CN_Filtros_CN_AsistenciasPorCursoYAsignatura_System_Int32_System_Int32_
+  commentId: M:Negocio.CN_Filtros.CN_AsistenciasPorCursoYAsignatura(System.Int32,System.Int32)
+  name.vb: CN_AsistenciasPorCursoYAsignatura(Integer, Integer)
+  fullName: Negocio.CN_Filtros.CN_AsistenciasPorCursoYAsignatura(int, int)
+  fullName.vb: Negocio.CN_Filtros.CN_AsistenciasPorCursoYAsignatura(Integer, Integer)
+  nameWithType: CN_Filtros.CN_AsistenciasPorCursoYAsignatura(int, int)
+  nameWithType.vb: CN_Filtros.CN_AsistenciasPorCursoYAsignatura(Integer, Integer)
+- uid: Negocio.CN_Filtros.CN_AsistenciasPorCursoYAsignatura*
+  name: CN_AsistenciasPorCursoYAsignatura
+  href: api/Negocio.CN_Filtros.html#Negocio_CN_Filtros_CN_AsistenciasPorCursoYAsignatura_
+  commentId: Overload:Negocio.CN_Filtros.CN_AsistenciasPorCursoYAsignatura
+  isSpec: "True"
+  fullName: Negocio.CN_Filtros.CN_AsistenciasPorCursoYAsignatura
+  nameWithType: CN_Filtros.CN_AsistenciasPorCursoYAsignatura
+- uid: Negocio.CN_Filtros.CN_EstudiantesPorAsignaturaYCurso(System.Int32,System.Int32)
+  name: CN_EstudiantesPorAsignaturaYCurso(int, int)
+  href: api/Negocio.CN_Filtros.html#Negocio_CN_Filtros_CN_EstudiantesPorAsignaturaYCurso_System_Int32_System_Int32_
+  commentId: M:Negocio.CN_Filtros.CN_EstudiantesPorAsignaturaYCurso(System.Int32,System.Int32)
+  name.vb: CN_EstudiantesPorAsignaturaYCurso(Integer, Integer)
+  fullName: Negocio.CN_Filtros.CN_EstudiantesPorAsignaturaYCurso(int, int)
+  fullName.vb: Negocio.CN_Filtros.CN_EstudiantesPorAsignaturaYCurso(Integer, Integer)
+  nameWithType: CN_Filtros.CN_EstudiantesPorAsignaturaYCurso(int, int)
+  nameWithType.vb: CN_Filtros.CN_EstudiantesPorAsignaturaYCurso(Integer, Integer)
+- uid: Negocio.CN_Filtros.CN_EstudiantesPorAsignaturaYCurso*
+  name: CN_EstudiantesPorAsignaturaYCurso
+  href: api/Negocio.CN_Filtros.html#Negocio_CN_Filtros_CN_EstudiantesPorAsignaturaYCurso_
+  commentId: Overload:Negocio.CN_Filtros.CN_EstudiantesPorAsignaturaYCurso
+  isSpec: "True"
+  fullName: Negocio.CN_Filtros.CN_EstudiantesPorAsignaturaYCurso
+  nameWithType: CN_Filtros.CN_EstudiantesPorAsignaturaYCurso
+- uid: Negocio.CN_Filtros.CN_EstudiantesPorCurso(System.Int32)
+  name: CN_EstudiantesPorCurso(int)
+  href: api/Negocio.CN_Filtros.html#Negocio_CN_Filtros_CN_EstudiantesPorCurso_System_Int32_
+  commentId: M:Negocio.CN_Filtros.CN_EstudiantesPorCurso(System.Int32)
+  name.vb: CN_EstudiantesPorCurso(Integer)
+  fullName: Negocio.CN_Filtros.CN_EstudiantesPorCurso(int)
+  fullName.vb: Negocio.CN_Filtros.CN_EstudiantesPorCurso(Integer)
+  nameWithType: CN_Filtros.CN_EstudiantesPorCurso(int)
+  nameWithType.vb: CN_Filtros.CN_EstudiantesPorCurso(Integer)
+- uid: Negocio.CN_Filtros.CN_EstudiantesPorCurso*
+  name: CN_EstudiantesPorCurso
+  href: api/Negocio.CN_Filtros.html#Negocio_CN_Filtros_CN_EstudiantesPorCurso_
+  commentId: Overload:Negocio.CN_Filtros.CN_EstudiantesPorCurso
+  isSpec: "True"
+  fullName: Negocio.CN_Filtros.CN_EstudiantesPorCurso
+  nameWithType: CN_Filtros.CN_EstudiantesPorCurso
+- uid: Negocio.CN_Usuario
+  name: CN_Usuario
+  href: api/Negocio.CN_Usuario.html
+  commentId: T:Negocio.CN_Usuario
+  fullName: Negocio.CN_Usuario
+  nameWithType: CN_Usuario
+- uid: Negocio.CN_Usuario.IngresarUsuario(System.String,System.String,System.String)
+  name: IngresarUsuario(string, string, string)
+  href: api/Negocio.CN_Usuario.html#Negocio_CN_Usuario_IngresarUsuario_System_String_System_String_System_String_
+  commentId: M:Negocio.CN_Usuario.IngresarUsuario(System.String,System.String,System.String)
+  name.vb: IngresarUsuario(String, String, String)
+  fullName: Negocio.CN_Usuario.IngresarUsuario(string, string, string)
+  fullName.vb: Negocio.CN_Usuario.IngresarUsuario(String, String, String)
+  nameWithType: CN_Usuario.IngresarUsuario(string, string, string)
+  nameWithType.vb: CN_Usuario.IngresarUsuario(String, String, String)
+- uid: Negocio.CN_Usuario.IngresarUsuario*
+  name: IngresarUsuario
+  href: api/Negocio.CN_Usuario.html#Negocio_CN_Usuario_IngresarUsuario_
+  commentId: Overload:Negocio.CN_Usuario.IngresarUsuario
+  isSpec: "True"
+  fullName: Negocio.CN_Usuario.IngresarUsuario
+  nameWithType: CN_Usuario.IngresarUsuario
+- uid: Negocio.CN_Usuario.VerificarInicioSesion(System.String,System.String)
+  name: VerificarInicioSesion(string, string)
+  href: api/Negocio.CN_Usuario.html#Negocio_CN_Usuario_VerificarInicioSesion_System_String_System_String_
+  commentId: M:Negocio.CN_Usuario.VerificarInicioSesion(System.String,System.String)
+  name.vb: VerificarInicioSesion(String, String)
+  fullName: Negocio.CN_Usuario.VerificarInicioSesion(string, string)
+  fullName.vb: Negocio.CN_Usuario.VerificarInicioSesion(String, String)
+  nameWithType: CN_Usuario.VerificarInicioSesion(string, string)
+  nameWithType.vb: CN_Usuario.VerificarInicioSesion(String, String)
+- uid: Negocio.CN_Usuario.VerificarInicioSesion*
+  name: VerificarInicioSesion
+  href: api/Negocio.CN_Usuario.html#Negocio_CN_Usuario_VerificarInicioSesion_
+  commentId: Overload:Negocio.CN_Usuario.VerificarInicioSesion
+  isSpec: "True"
+  fullName: Negocio.CN_Usuario.VerificarInicioSesion
+  nameWithType: CN_Usuario.VerificarInicioSesion
+- uid: Negocio.Class1
+  name: Class1
+  href: api/Negocio.Class1.html
+  commentId: T:Negocio.Class1
+  fullName: Negocio.Class1
+  nameWithType: Class1
+- uid: Tarea_3___Instituto_Codice
+  name: Tarea_3___Instituto_Codice
+  href: api/Tarea_3___Instituto_Codice.html
+  commentId: N:Tarea_3___Instituto_Codice
+  fullName: Tarea_3___Instituto_Codice
+  nameWithType: Tarea_3___Instituto_Codice
+- uid: Tarea_3___Instituto_Codice.Form1
+  name: Form1
+  href: api/Tarea_3___Instituto_Codice.Form1.html
+  commentId: T:Tarea_3___Instituto_Codice.Form1
+  fullName: Tarea_3___Instituto_Codice.Form1
+  nameWithType: Form1
+- uid: Tarea_3___Instituto_Codice.Form1.#ctor
+  name: Form1()
+  href: api/Tarea_3___Instituto_Codice.Form1.html#Tarea_3___Instituto_Codice_Form1__ctor
+  commentId: M:Tarea_3___Instituto_Codice.Form1.#ctor
+  name.vb: New()
+  fullName: Tarea_3___Instituto_Codice.Form1.Form1()
+  fullName.vb: Tarea_3___Instituto_Codice.Form1.New()
+  nameWithType: Form1.Form1()
+  nameWithType.vb: Form1.New()
+- uid: Tarea_3___Instituto_Codice.Form1.#ctor*
+  name: Form1
+  href: api/Tarea_3___Instituto_Codice.Form1.html#Tarea_3___Instituto_Codice_Form1__ctor_
+  commentId: Overload:Tarea_3___Instituto_Codice.Form1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Tarea_3___Instituto_Codice.Form1.Form1
+  fullName.vb: Tarea_3___Instituto_Codice.Form1.New
+  nameWithType: Form1.Form1
+  nameWithType.vb: Form1.New
+- uid: Tarea_3___Instituto_Codice.Form1.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: api/Tarea_3___Instituto_Codice.Form1.html#Tarea_3___Instituto_Codice_Form1_Dispose_System_Boolean_
+  commentId: M:Tarea_3___Instituto_Codice.Form1.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: Tarea_3___Instituto_Codice.Form1.Dispose(bool)
+  fullName.vb: Tarea_3___Instituto_Codice.Form1.Dispose(Boolean)
+  nameWithType: Form1.Dispose(bool)
+  nameWithType.vb: Form1.Dispose(Boolean)
+- uid: Tarea_3___Instituto_Codice.Form1.Dispose*
+  name: Dispose
+  href: api/Tarea_3___Instituto_Codice.Form1.html#Tarea_3___Instituto_Codice_Form1_Dispose_
+  commentId: Overload:Tarea_3___Instituto_Codice.Form1.Dispose
+  isSpec: "True"
+  fullName: Tarea_3___Instituto_Codice.Form1.Dispose
+  nameWithType: Form1.Dispose
+- uid: Tarea_3___Instituto_Codice.GestionAsignaturas
+  name: GestionAsignaturas
+  href: api/Tarea_3___Instituto_Codice.GestionAsignaturas.html
+  commentId: T:Tarea_3___Instituto_Codice.GestionAsignaturas
+  fullName: Tarea_3___Instituto_Codice.GestionAsignaturas
+  nameWithType: GestionAsignaturas
+- uid: Tarea_3___Instituto_Codice.GestionAsignaturas.#ctor
+  name: GestionAsignaturas()
+  href: api/Tarea_3___Instituto_Codice.GestionAsignaturas.html#Tarea_3___Instituto_Codice_GestionAsignaturas__ctor
+  commentId: M:Tarea_3___Instituto_Codice.GestionAsignaturas.#ctor
+  name.vb: New()
+  fullName: Tarea_3___Instituto_Codice.GestionAsignaturas.GestionAsignaturas()
+  fullName.vb: Tarea_3___Instituto_Codice.GestionAsignaturas.New()
+  nameWithType: GestionAsignaturas.GestionAsignaturas()
+  nameWithType.vb: GestionAsignaturas.New()
+- uid: Tarea_3___Instituto_Codice.GestionAsignaturas.#ctor*
+  name: GestionAsignaturas
+  href: api/Tarea_3___Instituto_Codice.GestionAsignaturas.html#Tarea_3___Instituto_Codice_GestionAsignaturas__ctor_
+  commentId: Overload:Tarea_3___Instituto_Codice.GestionAsignaturas.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Tarea_3___Instituto_Codice.GestionAsignaturas.GestionAsignaturas
+  fullName.vb: Tarea_3___Instituto_Codice.GestionAsignaturas.New
+  nameWithType: GestionAsignaturas.GestionAsignaturas
+  nameWithType.vb: GestionAsignaturas.New
+- uid: Tarea_3___Instituto_Codice.GestionAsignaturas.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: api/Tarea_3___Instituto_Codice.GestionAsignaturas.html#Tarea_3___Instituto_Codice_GestionAsignaturas_Dispose_System_Boolean_
+  commentId: M:Tarea_3___Instituto_Codice.GestionAsignaturas.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: Tarea_3___Instituto_Codice.GestionAsignaturas.Dispose(bool)
+  fullName.vb: Tarea_3___Instituto_Codice.GestionAsignaturas.Dispose(Boolean)
+  nameWithType: GestionAsignaturas.Dispose(bool)
+  nameWithType.vb: GestionAsignaturas.Dispose(Boolean)
+- uid: Tarea_3___Instituto_Codice.GestionAsignaturas.Dispose*
+  name: Dispose
+  href: api/Tarea_3___Instituto_Codice.GestionAsignaturas.html#Tarea_3___Instituto_Codice_GestionAsignaturas_Dispose_
+  commentId: Overload:Tarea_3___Instituto_Codice.GestionAsignaturas.Dispose
+  isSpec: "True"
+  fullName: Tarea_3___Instituto_Codice.GestionAsignaturas.Dispose
+  nameWithType: GestionAsignaturas.Dispose
+- uid: Tarea_3___Instituto_Codice.GestionAsistencia
+  name: GestionAsistencia
+  href: api/Tarea_3___Instituto_Codice.GestionAsistencia.html
+  commentId: T:Tarea_3___Instituto_Codice.GestionAsistencia
+  fullName: Tarea_3___Instituto_Codice.GestionAsistencia
+  nameWithType: GestionAsistencia
+- uid: Tarea_3___Instituto_Codice.GestionAsistencia.#ctor
+  name: GestionAsistencia()
+  href: api/Tarea_3___Instituto_Codice.GestionAsistencia.html#Tarea_3___Instituto_Codice_GestionAsistencia__ctor
+  commentId: M:Tarea_3___Instituto_Codice.GestionAsistencia.#ctor
+  name.vb: New()
+  fullName: Tarea_3___Instituto_Codice.GestionAsistencia.GestionAsistencia()
+  fullName.vb: Tarea_3___Instituto_Codice.GestionAsistencia.New()
+  nameWithType: GestionAsistencia.GestionAsistencia()
+  nameWithType.vb: GestionAsistencia.New()
+- uid: Tarea_3___Instituto_Codice.GestionAsistencia.#ctor*
+  name: GestionAsistencia
+  href: api/Tarea_3___Instituto_Codice.GestionAsistencia.html#Tarea_3___Instituto_Codice_GestionAsistencia__ctor_
+  commentId: Overload:Tarea_3___Instituto_Codice.GestionAsistencia.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Tarea_3___Instituto_Codice.GestionAsistencia.GestionAsistencia
+  fullName.vb: Tarea_3___Instituto_Codice.GestionAsistencia.New
+  nameWithType: GestionAsistencia.GestionAsistencia
+  nameWithType.vb: GestionAsistencia.New
+- uid: Tarea_3___Instituto_Codice.GestionAsistencia.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: api/Tarea_3___Instituto_Codice.GestionAsistencia.html#Tarea_3___Instituto_Codice_GestionAsistencia_Dispose_System_Boolean_
+  commentId: M:Tarea_3___Instituto_Codice.GestionAsistencia.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: Tarea_3___Instituto_Codice.GestionAsistencia.Dispose(bool)
+  fullName.vb: Tarea_3___Instituto_Codice.GestionAsistencia.Dispose(Boolean)
+  nameWithType: GestionAsistencia.Dispose(bool)
+  nameWithType.vb: GestionAsistencia.Dispose(Boolean)
+- uid: Tarea_3___Instituto_Codice.GestionAsistencia.Dispose*
+  name: Dispose
+  href: api/Tarea_3___Instituto_Codice.GestionAsistencia.html#Tarea_3___Instituto_Codice_GestionAsistencia_Dispose_
+  commentId: Overload:Tarea_3___Instituto_Codice.GestionAsistencia.Dispose
+  isSpec: "True"
+  fullName: Tarea_3___Instituto_Codice.GestionAsistencia.Dispose
+  nameWithType: GestionAsistencia.Dispose
+- uid: Tarea_3___Instituto_Codice.GestionCalificaciones
+  name: GestionCalificaciones
+  href: api/Tarea_3___Instituto_Codice.GestionCalificaciones.html
+  commentId: T:Tarea_3___Instituto_Codice.GestionCalificaciones
+  fullName: Tarea_3___Instituto_Codice.GestionCalificaciones
+  nameWithType: GestionCalificaciones
+- uid: Tarea_3___Instituto_Codice.GestionCalificaciones.#ctor
+  name: GestionCalificaciones()
+  href: api/Tarea_3___Instituto_Codice.GestionCalificaciones.html#Tarea_3___Instituto_Codice_GestionCalificaciones__ctor
+  commentId: M:Tarea_3___Instituto_Codice.GestionCalificaciones.#ctor
+  name.vb: New()
+  fullName: Tarea_3___Instituto_Codice.GestionCalificaciones.GestionCalificaciones()
+  fullName.vb: Tarea_3___Instituto_Codice.GestionCalificaciones.New()
+  nameWithType: GestionCalificaciones.GestionCalificaciones()
+  nameWithType.vb: GestionCalificaciones.New()
+- uid: Tarea_3___Instituto_Codice.GestionCalificaciones.#ctor*
+  name: GestionCalificaciones
+  href: api/Tarea_3___Instituto_Codice.GestionCalificaciones.html#Tarea_3___Instituto_Codice_GestionCalificaciones__ctor_
+  commentId: Overload:Tarea_3___Instituto_Codice.GestionCalificaciones.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Tarea_3___Instituto_Codice.GestionCalificaciones.GestionCalificaciones
+  fullName.vb: Tarea_3___Instituto_Codice.GestionCalificaciones.New
+  nameWithType: GestionCalificaciones.GestionCalificaciones
+  nameWithType.vb: GestionCalificaciones.New
+- uid: Tarea_3___Instituto_Codice.GestionCalificaciones.ConfigurarComboBoxEstudiantes(System.Data.DataTable)
+  name: ConfigurarComboBoxEstudiantes(DataTable)
+  href: api/Tarea_3___Instituto_Codice.GestionCalificaciones.html#Tarea_3___Instituto_Codice_GestionCalificaciones_ConfigurarComboBoxEstudiantes_System_Data_DataTable_
+  commentId: M:Tarea_3___Instituto_Codice.GestionCalificaciones.ConfigurarComboBoxEstudiantes(System.Data.DataTable)
+  fullName: Tarea_3___Instituto_Codice.GestionCalificaciones.ConfigurarComboBoxEstudiantes(System.Data.DataTable)
+  nameWithType: GestionCalificaciones.ConfigurarComboBoxEstudiantes(DataTable)
+- uid: Tarea_3___Instituto_Codice.GestionCalificaciones.ConfigurarComboBoxEstudiantes*
+  name: ConfigurarComboBoxEstudiantes
+  href: api/Tarea_3___Instituto_Codice.GestionCalificaciones.html#Tarea_3___Instituto_Codice_GestionCalificaciones_ConfigurarComboBoxEstudiantes_
+  commentId: Overload:Tarea_3___Instituto_Codice.GestionCalificaciones.ConfigurarComboBoxEstudiantes
+  isSpec: "True"
+  fullName: Tarea_3___Instituto_Codice.GestionCalificaciones.ConfigurarComboBoxEstudiantes
+  nameWithType: GestionCalificaciones.ConfigurarComboBoxEstudiantes
+- uid: Tarea_3___Instituto_Codice.GestionCalificaciones.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: api/Tarea_3___Instituto_Codice.GestionCalificaciones.html#Tarea_3___Instituto_Codice_GestionCalificaciones_Dispose_System_Boolean_
+  commentId: M:Tarea_3___Instituto_Codice.GestionCalificaciones.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: Tarea_3___Instituto_Codice.GestionCalificaciones.Dispose(bool)
+  fullName.vb: Tarea_3___Instituto_Codice.GestionCalificaciones.Dispose(Boolean)
+  nameWithType: GestionCalificaciones.Dispose(bool)
+  nameWithType.vb: GestionCalificaciones.Dispose(Boolean)
+- uid: Tarea_3___Instituto_Codice.GestionCalificaciones.Dispose*
+  name: Dispose
+  href: api/Tarea_3___Instituto_Codice.GestionCalificaciones.html#Tarea_3___Instituto_Codice_GestionCalificaciones_Dispose_
+  commentId: Overload:Tarea_3___Instituto_Codice.GestionCalificaciones.Dispose
+  isSpec: "True"
+  fullName: Tarea_3___Instituto_Codice.GestionCalificaciones.Dispose
+  nameWithType: GestionCalificaciones.Dispose
+- uid: Tarea_3___Instituto_Codice.GestionCalificaciones.LimpiarComboboxDependientes
+  name: LimpiarComboboxDependientes()
+  href: api/Tarea_3___Instituto_Codice.GestionCalificaciones.html#Tarea_3___Instituto_Codice_GestionCalificaciones_LimpiarComboboxDependientes
+  commentId: M:Tarea_3___Instituto_Codice.GestionCalificaciones.LimpiarComboboxDependientes
+  fullName: Tarea_3___Instituto_Codice.GestionCalificaciones.LimpiarComboboxDependientes()
+  nameWithType: GestionCalificaciones.LimpiarComboboxDependientes()
+- uid: Tarea_3___Instituto_Codice.GestionCalificaciones.LimpiarComboboxDependientes*
+  name: LimpiarComboboxDependientes
+  href: api/Tarea_3___Instituto_Codice.GestionCalificaciones.html#Tarea_3___Instituto_Codice_GestionCalificaciones_LimpiarComboboxDependientes_
+  commentId: Overload:Tarea_3___Instituto_Codice.GestionCalificaciones.LimpiarComboboxDependientes
+  isSpec: "True"
+  fullName: Tarea_3___Instituto_Codice.GestionCalificaciones.LimpiarComboboxDependientes
+  nameWithType: GestionCalificaciones.LimpiarComboboxDependientes
+- uid: Tarea_3___Instituto_Codice.GestionCursos
+  name: GestionCursos
+  href: api/Tarea_3___Instituto_Codice.GestionCursos.html
+  commentId: T:Tarea_3___Instituto_Codice.GestionCursos
+  fullName: Tarea_3___Instituto_Codice.GestionCursos
+  nameWithType: GestionCursos
+- uid: Tarea_3___Instituto_Codice.GestionCursos.#ctor
+  name: GestionCursos()
+  href: api/Tarea_3___Instituto_Codice.GestionCursos.html#Tarea_3___Instituto_Codice_GestionCursos__ctor
+  commentId: M:Tarea_3___Instituto_Codice.GestionCursos.#ctor
+  name.vb: New()
+  fullName: Tarea_3___Instituto_Codice.GestionCursos.GestionCursos()
+  fullName.vb: Tarea_3___Instituto_Codice.GestionCursos.New()
+  nameWithType: GestionCursos.GestionCursos()
+  nameWithType.vb: GestionCursos.New()
+- uid: Tarea_3___Instituto_Codice.GestionCursos.#ctor*
+  name: GestionCursos
+  href: api/Tarea_3___Instituto_Codice.GestionCursos.html#Tarea_3___Instituto_Codice_GestionCursos__ctor_
+  commentId: Overload:Tarea_3___Instituto_Codice.GestionCursos.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Tarea_3___Instituto_Codice.GestionCursos.GestionCursos
+  fullName.vb: Tarea_3___Instituto_Codice.GestionCursos.New
+  nameWithType: GestionCursos.GestionCursos
+  nameWithType.vb: GestionCursos.New
+- uid: Tarea_3___Instituto_Codice.GestionCursos.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: api/Tarea_3___Instituto_Codice.GestionCursos.html#Tarea_3___Instituto_Codice_GestionCursos_Dispose_System_Boolean_
+  commentId: M:Tarea_3___Instituto_Codice.GestionCursos.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: Tarea_3___Instituto_Codice.GestionCursos.Dispose(bool)
+  fullName.vb: Tarea_3___Instituto_Codice.GestionCursos.Dispose(Boolean)
+  nameWithType: GestionCursos.Dispose(bool)
+  nameWithType.vb: GestionCursos.Dispose(Boolean)
+- uid: Tarea_3___Instituto_Codice.GestionCursos.Dispose*
+  name: Dispose
+  href: api/Tarea_3___Instituto_Codice.GestionCursos.html#Tarea_3___Instituto_Codice_GestionCursos_Dispose_
+  commentId: Overload:Tarea_3___Instituto_Codice.GestionCursos.Dispose
+  isSpec: "True"
+  fullName: Tarea_3___Instituto_Codice.GestionCursos.Dispose
+  nameWithType: GestionCursos.Dispose
+- uid: Tarea_3___Instituto_Codice.GestionEstudiantes
+  name: GestionEstudiantes
+  href: api/Tarea_3___Instituto_Codice.GestionEstudiantes.html
+  commentId: T:Tarea_3___Instituto_Codice.GestionEstudiantes
+  fullName: Tarea_3___Instituto_Codice.GestionEstudiantes
+  nameWithType: GestionEstudiantes
+- uid: Tarea_3___Instituto_Codice.GestionEstudiantes.#ctor
+  name: GestionEstudiantes()
+  href: api/Tarea_3___Instituto_Codice.GestionEstudiantes.html#Tarea_3___Instituto_Codice_GestionEstudiantes__ctor
+  commentId: M:Tarea_3___Instituto_Codice.GestionEstudiantes.#ctor
+  name.vb: New()
+  fullName: Tarea_3___Instituto_Codice.GestionEstudiantes.GestionEstudiantes()
+  fullName.vb: Tarea_3___Instituto_Codice.GestionEstudiantes.New()
+  nameWithType: GestionEstudiantes.GestionEstudiantes()
+  nameWithType.vb: GestionEstudiantes.New()
+- uid: Tarea_3___Instituto_Codice.GestionEstudiantes.#ctor*
+  name: GestionEstudiantes
+  href: api/Tarea_3___Instituto_Codice.GestionEstudiantes.html#Tarea_3___Instituto_Codice_GestionEstudiantes__ctor_
+  commentId: Overload:Tarea_3___Instituto_Codice.GestionEstudiantes.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Tarea_3___Instituto_Codice.GestionEstudiantes.GestionEstudiantes
+  fullName.vb: Tarea_3___Instituto_Codice.GestionEstudiantes.New
+  nameWithType: GestionEstudiantes.GestionEstudiantes
+  nameWithType.vb: GestionEstudiantes.New
+- uid: Tarea_3___Instituto_Codice.GestionEstudiantes.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: api/Tarea_3___Instituto_Codice.GestionEstudiantes.html#Tarea_3___Instituto_Codice_GestionEstudiantes_Dispose_System_Boolean_
+  commentId: M:Tarea_3___Instituto_Codice.GestionEstudiantes.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: Tarea_3___Instituto_Codice.GestionEstudiantes.Dispose(bool)
+  fullName.vb: Tarea_3___Instituto_Codice.GestionEstudiantes.Dispose(Boolean)
+  nameWithType: GestionEstudiantes.Dispose(bool)
+  nameWithType.vb: GestionEstudiantes.Dispose(Boolean)
+- uid: Tarea_3___Instituto_Codice.GestionEstudiantes.Dispose*
+  name: Dispose
+  href: api/Tarea_3___Instituto_Codice.GestionEstudiantes.html#Tarea_3___Instituto_Codice_GestionEstudiantes_Dispose_
+  commentId: Overload:Tarea_3___Instituto_Codice.GestionEstudiantes.Dispose
+  isSpec: "True"
+  fullName: Tarea_3___Instituto_Codice.GestionEstudiantes.Dispose
+  nameWithType: GestionEstudiantes.Dispose
+- uid: Tarea_3___Instituto_Codice.MenuPrincipal
+  name: MenuPrincipal
+  href: api/Tarea_3___Instituto_Codice.MenuPrincipal.html
+  commentId: T:Tarea_3___Instituto_Codice.MenuPrincipal
+  fullName: Tarea_3___Instituto_Codice.MenuPrincipal
+  nameWithType: MenuPrincipal
+- uid: Tarea_3___Instituto_Codice.MenuPrincipal.#ctor
+  name: MenuPrincipal()
+  href: api/Tarea_3___Instituto_Codice.MenuPrincipal.html#Tarea_3___Instituto_Codice_MenuPrincipal__ctor
+  commentId: M:Tarea_3___Instituto_Codice.MenuPrincipal.#ctor
+  name.vb: New()
+  fullName: Tarea_3___Instituto_Codice.MenuPrincipal.MenuPrincipal()
+  fullName.vb: Tarea_3___Instituto_Codice.MenuPrincipal.New()
+  nameWithType: MenuPrincipal.MenuPrincipal()
+  nameWithType.vb: MenuPrincipal.New()
+- uid: Tarea_3___Instituto_Codice.MenuPrincipal.#ctor*
+  name: MenuPrincipal
+  href: api/Tarea_3___Instituto_Codice.MenuPrincipal.html#Tarea_3___Instituto_Codice_MenuPrincipal__ctor_
+  commentId: Overload:Tarea_3___Instituto_Codice.MenuPrincipal.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Tarea_3___Instituto_Codice.MenuPrincipal.MenuPrincipal
+  fullName.vb: Tarea_3___Instituto_Codice.MenuPrincipal.New
+  nameWithType: MenuPrincipal.MenuPrincipal
+  nameWithType.vb: MenuPrincipal.New
+- uid: Tarea_3___Instituto_Codice.MenuPrincipal.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: api/Tarea_3___Instituto_Codice.MenuPrincipal.html#Tarea_3___Instituto_Codice_MenuPrincipal_Dispose_System_Boolean_
+  commentId: M:Tarea_3___Instituto_Codice.MenuPrincipal.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: Tarea_3___Instituto_Codice.MenuPrincipal.Dispose(bool)
+  fullName.vb: Tarea_3___Instituto_Codice.MenuPrincipal.Dispose(Boolean)
+  nameWithType: MenuPrincipal.Dispose(bool)
+  nameWithType.vb: MenuPrincipal.Dispose(Boolean)
+- uid: Tarea_3___Instituto_Codice.MenuPrincipal.Dispose*
+  name: Dispose
+  href: api/Tarea_3___Instituto_Codice.MenuPrincipal.html#Tarea_3___Instituto_Codice_MenuPrincipal_Dispose_
+  commentId: Overload:Tarea_3___Instituto_Codice.MenuPrincipal.Dispose
+  isSpec: "True"
+  fullName: Tarea_3___Instituto_Codice.MenuPrincipal.Dispose
+  nameWithType: MenuPrincipal.Dispose
+- uid: Tarea_3___Instituto_Codice.RegistrarUsuario
+  name: RegistrarUsuario
+  href: api/Tarea_3___Instituto_Codice.RegistrarUsuario.html
+  commentId: T:Tarea_3___Instituto_Codice.RegistrarUsuario
+  fullName: Tarea_3___Instituto_Codice.RegistrarUsuario
+  nameWithType: RegistrarUsuario
+- uid: Tarea_3___Instituto_Codice.RegistrarUsuario.#ctor
+  name: RegistrarUsuario()
+  href: api/Tarea_3___Instituto_Codice.RegistrarUsuario.html#Tarea_3___Instituto_Codice_RegistrarUsuario__ctor
+  commentId: M:Tarea_3___Instituto_Codice.RegistrarUsuario.#ctor
+  name.vb: New()
+  fullName: Tarea_3___Instituto_Codice.RegistrarUsuario.RegistrarUsuario()
+  fullName.vb: Tarea_3___Instituto_Codice.RegistrarUsuario.New()
+  nameWithType: RegistrarUsuario.RegistrarUsuario()
+  nameWithType.vb: RegistrarUsuario.New()
+- uid: Tarea_3___Instituto_Codice.RegistrarUsuario.#ctor*
+  name: RegistrarUsuario
+  href: api/Tarea_3___Instituto_Codice.RegistrarUsuario.html#Tarea_3___Instituto_Codice_RegistrarUsuario__ctor_
+  commentId: Overload:Tarea_3___Instituto_Codice.RegistrarUsuario.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Tarea_3___Instituto_Codice.RegistrarUsuario.RegistrarUsuario
+  fullName.vb: Tarea_3___Instituto_Codice.RegistrarUsuario.New
+  nameWithType: RegistrarUsuario.RegistrarUsuario
+  nameWithType.vb: RegistrarUsuario.New
+- uid: Tarea_3___Instituto_Codice.RegistrarUsuario.Dispose(System.Boolean)
+  name: Dispose(bool)
+  href: api/Tarea_3___Instituto_Codice.RegistrarUsuario.html#Tarea_3___Instituto_Codice_RegistrarUsuario_Dispose_System_Boolean_
+  commentId: M:Tarea_3___Instituto_Codice.RegistrarUsuario.Dispose(System.Boolean)
+  name.vb: Dispose(Boolean)
+  fullName: Tarea_3___Instituto_Codice.RegistrarUsuario.Dispose(bool)
+  fullName.vb: Tarea_3___Instituto_Codice.RegistrarUsuario.Dispose(Boolean)
+  nameWithType: RegistrarUsuario.Dispose(bool)
+  nameWithType.vb: RegistrarUsuario.Dispose(Boolean)
+- uid: Tarea_3___Instituto_Codice.RegistrarUsuario.Dispose*
+  name: Dispose
+  href: api/Tarea_3___Instituto_Codice.RegistrarUsuario.html#Tarea_3___Instituto_Codice_RegistrarUsuario_Dispose_
+  commentId: Overload:Tarea_3___Instituto_Codice.RegistrarUsuario.Dispose
+  isSpec: "True"
+  fullName: Tarea_3___Instituto_Codice.RegistrarUsuario.Dispose
+  nameWithType: RegistrarUsuario.Dispose
+- uid: Tarea_3___Instituto_Codice.SesionUsuario
+  name: SesionUsuario
+  href: api/Tarea_3___Instituto_Codice.SesionUsuario.html
+  commentId: T:Tarea_3___Instituto_Codice.SesionUsuario
+  fullName: Tarea_3___Instituto_Codice.SesionUsuario
+  nameWithType: SesionUsuario
+- uid: Tarea_3___Instituto_Codice.SesionUsuario.CerrarSesion
+  name: CerrarSesion()
+  href: api/Tarea_3___Instituto_Codice.SesionUsuario.html#Tarea_3___Instituto_Codice_SesionUsuario_CerrarSesion
+  commentId: M:Tarea_3___Instituto_Codice.SesionUsuario.CerrarSesion
+  fullName: Tarea_3___Instituto_Codice.SesionUsuario.CerrarSesion()
+  nameWithType: SesionUsuario.CerrarSesion()
+- uid: Tarea_3___Instituto_Codice.SesionUsuario.CerrarSesion*
+  name: CerrarSesion
+  href: api/Tarea_3___Instituto_Codice.SesionUsuario.html#Tarea_3___Instituto_Codice_SesionUsuario_CerrarSesion_
+  commentId: Overload:Tarea_3___Instituto_Codice.SesionUsuario.CerrarSesion
+  isSpec: "True"
+  fullName: Tarea_3___Instituto_Codice.SesionUsuario.CerrarSesion
+  nameWithType: SesionUsuario.CerrarSesion
+- uid: Tarea_3___Instituto_Codice.SesionUsuario.NombreUsuario
+  name: NombreUsuario
+  href: api/Tarea_3___Instituto_Codice.SesionUsuario.html#Tarea_3___Instituto_Codice_SesionUsuario_NombreUsuario
+  commentId: P:Tarea_3___Instituto_Codice.SesionUsuario.NombreUsuario
+  fullName: Tarea_3___Instituto_Codice.SesionUsuario.NombreUsuario
+  nameWithType: SesionUsuario.NombreUsuario
+- uid: Tarea_3___Instituto_Codice.SesionUsuario.NombreUsuario*
+  name: NombreUsuario
+  href: api/Tarea_3___Instituto_Codice.SesionUsuario.html#Tarea_3___Instituto_Codice_SesionUsuario_NombreUsuario_
+  commentId: Overload:Tarea_3___Instituto_Codice.SesionUsuario.NombreUsuario
+  isSpec: "True"
+  fullName: Tarea_3___Instituto_Codice.SesionUsuario.NombreUsuario
+  nameWithType: SesionUsuario.NombreUsuario
+- uid: Tarea_3___Instituto_Codice.SesionUsuario.SesionActiva
+  name: SesionActiva()
+  href: api/Tarea_3___Instituto_Codice.SesionUsuario.html#Tarea_3___Instituto_Codice_SesionUsuario_SesionActiva
+  commentId: M:Tarea_3___Instituto_Codice.SesionUsuario.SesionActiva
+  fullName: Tarea_3___Instituto_Codice.SesionUsuario.SesionActiva()
+  nameWithType: SesionUsuario.SesionActiva()
+- uid: Tarea_3___Instituto_Codice.SesionUsuario.SesionActiva*
+  name: SesionActiva
+  href: api/Tarea_3___Instituto_Codice.SesionUsuario.html#Tarea_3___Instituto_Codice_SesionUsuario_SesionActiva_
+  commentId: Overload:Tarea_3___Instituto_Codice.SesionUsuario.SesionActiva
+  isSpec: "True"
+  fullName: Tarea_3___Instituto_Codice.SesionUsuario.SesionActiva
+  nameWithType: SesionUsuario.SesionActiva
+- uid: Tarea_3___Instituto_Codice.SesionUsuario.UsuarioID
+  name: UsuarioID
+  href: api/Tarea_3___Instituto_Codice.SesionUsuario.html#Tarea_3___Instituto_Codice_SesionUsuario_UsuarioID
+  commentId: P:Tarea_3___Instituto_Codice.SesionUsuario.UsuarioID
+  fullName: Tarea_3___Instituto_Codice.SesionUsuario.UsuarioID
+  nameWithType: SesionUsuario.UsuarioID
+- uid: Tarea_3___Instituto_Codice.SesionUsuario.UsuarioID*
+  name: UsuarioID
+  href: api/Tarea_3___Instituto_Codice.SesionUsuario.html#Tarea_3___Instituto_Codice_SesionUsuario_UsuarioID_
+  commentId: Overload:Tarea_3___Instituto_Codice.SesionUsuario.UsuarioID
+  isSpec: "True"
+  fullName: Tarea_3___Instituto_Codice.SesionUsuario.UsuarioID
+  nameWithType: SesionUsuario.UsuarioID

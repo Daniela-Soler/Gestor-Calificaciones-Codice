@@ -1,0 +1,59 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "Datos/**/*.csproj",
+            "Negocio/**/*.csproj",
+            "Tarea 3 - Instituto Codice/**/*.csproj"
+          ],
+          "src": "."
+        }
+      ],
+      "dest": "api",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "api/**.yml",
+          "api/index.md"
+        ]
+      },
+      {
+        "files": [
+          "docs/**.md",
+          "docs/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "dest": "_site",
+    "globalMetadata": {
+      "_appTitle": "Instituto CODICE - Documentación",
+      "_appFooter": "Sistema de Gestión Instituto CODICE",
+      "_enableSearch": true
+    },
+    "template": [
+      "default"
+    ],
+    "postProcessors": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false
+  }
+}
