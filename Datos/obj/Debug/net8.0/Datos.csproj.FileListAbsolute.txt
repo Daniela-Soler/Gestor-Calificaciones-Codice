@@ -1,0 +1,38 @@
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Datos\bin\Debug\net8.0\Datos.deps.json
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Datos\bin\Debug\net8.0\Datos.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Datos\bin\Debug\net8.0\Datos.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\Datos.csproj.AssemblyReference.cache
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\Datos.AssemblyInfoInputs.cache
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\Datos.AssemblyInfo.cs
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\Datos.csproj.CoreCompileInputs.cache
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\Datos.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\refint\Datos.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\Datos.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\ref\Datos.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\bin\Debug\net8.0\Datos.deps.json
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\bin\Debug\net8.0\Datos.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\bin\Debug\net8.0\Datos.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\Datos.csproj.AssemblyReference.cache
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\Datos.AssemblyInfoInputs.cache
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\Datos.AssemblyInfo.cs
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\Datos.csproj.CoreCompileInputs.cache
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\Datos.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\refint\Datos.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\Datos.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\ref\Datos.dll
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\bin\Debug\net8.0\Datos.deps.json
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\bin\Debug\net8.0\Datos.dll
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\bin\Debug\net8.0\Datos.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\bin\Debug\net8.0\Datos.xml
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\Datos.csproj.AssemblyReference.cache
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\Datos.AssemblyInfoInputs.cache
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\Datos.AssemblyInfo.cs
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\Datos.csproj.CoreCompileInputs.cache
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\Datos.dll
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\refint\Datos.dll
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\Datos.xml
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\Datos.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Datos\obj\Debug\net8.0\ref\Datos.dll

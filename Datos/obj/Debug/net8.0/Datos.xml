@@ -1,0 +1,394 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Datos</name>
+    </assembly>
+    <members>
+        <member name="T:Datos.CD_Asignatura">
+            <summary>
+            Clase encargada de realizar operaciones de base de datos relacionadas con asignaturas.
+            Implementa métodos para crear, leer y actualizar asignaturas en la base de datos.
+            </summary>
+        </member>
+        <member name="F:Datos.CD_Asignatura.conexion">
+            <summary>
+            Instancia de conexión a la base de datos.
+            </summary>
+        </member>
+        <member name="M:Datos.CD_Asignatura.CD_CrearAsignatura(System.Int32,System.String,System.Int32)">
+            <summary>
+            Crea una nueva asignatura en la base de datos.
+            </summary>
+            <param name="cursoID">ID del curso al que pertenece la asignatura. Debe ser mayor a 0.</param>
+            <param name="nombre">Nombre de la asignatura a crear. No debe estar vacío.</param>
+            <param name="usuarioID">ID del usuario que realiza la operación. Debe ser mayor a 0.</param>
+            <returns>
+            Retorna <c>true</c> si la asignatura se creó exitosamente; 
+            <c>false</c> en caso contrario.
+            </returns>
+            <exception cref="T:System.Exception">
+            Se lanza una excepción si ocurre un error durante la operación en la base de datos.
+            </exception>
+            <remarks>
+            Este método ejecuta el procedimiento almacenado <c>SP_CREATE_CrearAsignatura</c>
+            para insertar un nuevo registro de asignatura en la tabla Asignatura.
+            </remarks>
+        </member>
+        <member name="M:Datos.CD_Asignatura.CD_VerAsignaturas">
+            <summary>
+            Obtiene todas las asignaturas registradas en la base de datos.
+            </summary>
+            <returns>
+            Retorna un <see cref="T:System.Data.DataTable"/> que contiene todas las asignaturas 
+            con sus respectivos datos (AsignaturaID, NombreAsignatura y NombreCurso).
+            Si no hay asignaturas, retorna un DataTable vacío.
+            </returns>
+            <exception cref="T:System.Exception">
+            Se lanza una excepción si ocurre un error durante la consulta a la base de datos.
+            </exception>
+            <remarks>
+            Este método ejecuta el procedimiento almacenado <c>SP_READ_LeerAsignaturas</c>
+            para recuperar todos los registros de la tabla Asignatura.
+            </remarks>
+        </member>
+        <member name="M:Datos.CD_Asignatura.CD_ActualizarAsignatura(System.Int32,System.Int32,System.String,System.Int32)">
+            <summary>
+            Actualiza los datos de una asignatura existente en la base de datos.
+            </summary>
+            <param name="asignaturaID">ID de la asignatura a actualizar. Debe ser mayor a 0.</param>
+            <param name="cursoID">Nuevo ID del curso al que pertenecerá la asignatura. Debe ser mayor a 0.</param>
+            <param name="nombre">Nuevo nombre de la asignatura. No debe estar vacío.</param>
+            <param name="usuarioID">ID del usuario que realiza la operación. Debe ser mayor a 0.</param>
+            <returns>
+            Retorna <c>true</c> si la asignatura se actualizó exitosamente; 
+            <c>false</c> en caso contrario.
+            </returns>
+            <exception cref="T:System.Exception">
+            Se lanza una excepción si ocurre un error durante la operación en la base de datos.
+            </exception>
+            <remarks>
+            Este método ejecuta el procedimiento almacenado <c>SP_UPDATE_ActualizarAsignatura</c>
+            para modificar los datos de una asignatura existente en la tabla Asignatura.
+            </remarks>
+        </member>
+        <member name="T:Datos.CD_Asistencia">
+            <summary>
+            Clase que gestiona las operaciones de base de datos relacionadas con asistencias de estudiantes.
+            Implementa métodos para crear, leer y actualizar asistencias en la base de datos.
+            </summary>
+        </member>
+        <member name="F:Datos.CD_Asistencia.conexion">
+            <summary>
+            Instancia de conexión a la base de datos.
+            </summary>
+        </member>
+        <member name="M:Datos.CD_Asistencia.CD_IngresarAsistencia(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Int32)">
+            <summary>
+            Registra una nueva asistencia de un estudiante en una asignatura específica.
+            </summary>
+            <param name="estudianteID">Identificador único del estudiante.</param>
+            <param name="asignaturaID">Identificador único de la asignatura.</param>
+            <param name="fecha">Fecha en la que se registra la asistencia.</param>
+            <param name="estado">Estado de la asistencia (true para presente, false para ausente).</param>
+            <param name="usuarioID">Identificador del usuario que registra la asistencia.</param>
+            <returns>Retorna true si la asistencia se registró exitosamente, false en caso contrario.</returns>
+            <exception cref="T:System.Exception">Se lanza cuando ocurre un error al ejecutar el procedimiento almacenado.</exception>
+        </member>
+        <member name="M:Datos.CD_Asistencia.CD_VerAsistencias">
+            <summary>
+            Obtiene todas las asistencias registradas en el sistema.
+            </summary>
+            <returns>
+            Retorna un <see cref="T:System.Data.DataTable"/> que contiene todas las asistencias
+            con sus respectivos datos (AsistenciaID, EstudianteID, Estudiante, AsignaturaID,
+            Asignatura, FechaAsistencia, Estado).
+            Si no hay asistencias, retorna un DataTable vacío.
+            </returns>
+            <exception cref="T:System.Exception">
+            Se lanza una excepción si ocurre un error durante la consulta a la base de datos.
+            </exception>
+            <remarks>
+            Este método ejecuta el procedimiento almacenado <c>SP_READ_LeerAsistencias</c>
+            para recuperar todos los registros de la tabla Asistencia.
+            </remarks>
+        </member>
+        <member name="M:Datos.CD_Asistencia.CD_ActualizarAsistencia(System.Int32,System.Int32,System.Int32,System.DateTime,System.Boolean,System.Int32)">
+            <summary>
+            Actualiza los datos de una asistencia existente.
+            </summary>
+            <param name="asistenciaID">Identificador único de la asistencia a actualizar.</param>
+            <param name="estudianteID">Identificador único del estudiante.</param>
+            <param name="asignaturaID">Identificador único de la asignatura.</param>
+            <param name="fecha">Nueva fecha de la asistencia.</param>
+            <param name="estado">Nuevo estado de la asistencia (true para presente, false para ausente).</param>
+            <param name="usuarioID">Identificador del usuario que realiza la actualización.</param>
+            <returns>Retorna true si la asistencia se actualizó exitosamente, false en caso contrario.</returns>
+            <exception cref="T:System.Exception">Se lanza cuando ocurre un error al ejecutar el procedimiento almacenado.</exception>
+        </member>
+        <member name="T:Datos.CD_Calificaciones">
+            <summary>
+            Clase que gestiona las operaciones de base de datos relacionadas con las calificaciones de estudiantes.
+            Implementa métodos para crear, leer y actualizar calificaciones en la base de datos.
+            </summary>
+        </member>
+        <member name="F:Datos.CD_Calificaciones.conexion">
+            <summary>
+            Instancia de conexión a la base de datos.
+            </summary>
+        </member>
+        <member name="M:Datos.CD_Calificaciones.CD_CrearCalificacion(System.Int32,System.Int32,System.Decimal,System.DateTime,System.Int32)">
+            <summary>
+            Registra una nueva calificación para un estudiante en una asignatura específica.
+            </summary>
+            <param name="estudianteID">Identificador único del estudiante.</param>
+            <param name="asignaturaID">Identificador único de la asignatura.</param>
+            <param name="nota">Valor de la nota obtenida.</param>
+            <param name="fecha">Fecha en la que se registra la calificación.</param>
+            <param name="usuarioID">Identificador del usuario que registra la calificación.</param>
+            <returns>Retorna true si la calificación se registró exitosamente, false en caso contrario.</returns>
+            <exception cref="T:System.Exception">Se lanza cuando ocurre un error al ejecutar el procedimiento almacenado.</exception>
+        </member>
+        <member name="M:Datos.CD_Calificaciones.CD_VerCalificaciones">
+            <summary>
+            Obtiene todas las calificaciones registradas en el sistema.
+            </summary>
+            <returns>
+            Retorna un <see cref="T:System.Data.DataTable"/> que contiene todas las calificaciones
+            con sus respectivos datos (CalificacionID, NombreEstudiante, NombreAsignatura, 
+            Nota, FechaRegistro).
+            Si no hay calificaciones, retorna un DataTable vacío.
+            </returns>
+            <exception cref="T:System.Exception">
+            Se lanza una excepción si ocurre un error durante la consulta a la base de datos.
+            </exception>
+            <remarks>
+            Este método ejecuta el procedimiento almacenado <c>SP_READ_LeerCalificaciones</c>
+            para recuperar todos los registros de la tabla Calificaciones.
+            </remarks>
+        </member>
+        <member name="M:Datos.CD_Calificaciones.CD_ActualizarCalificacion(System.Int32,System.Int32,System.Int32,System.Decimal,System.DateTime,System.Int32)">
+            <summary>
+            Actualiza los datos de una calificación existente.
+            </summary>
+            <param name="calificacionID">Identificador único de la calificación a actualizar.</param>
+            <param name="estudianteID">Identificador único del estudiante.</param>
+            <param name="asignaturaID">Identificador único de la asignatura.</param>
+            <param name="nota">Nuevo valor de la nota.</param>
+            <param name="fecha">Nueva fecha de registro de la calificación.</param>
+            <param name="usuarioID">Identificador del usuario que realiza la actualización.</param>
+            <returns>Retorna true si la calificación se actualizó exitosamente, false en caso contrario.</returns>
+            <exception cref="T:System.Exception">Se lanza cuando ocurre un error al ejecutar el procedimiento almacenado.</exception>
+        </member>
+        <member name="T:Datos.CD_Conexion">
+            <summary>
+            Clase que gestiona la conexión a la base de datos SQL Server.
+            Proporciona métodos para abrir, cerrar y probar la conexión.
+            </summary>
+        </member>
+        <member name="F:Datos.CD_Conexion.Conexion">
+            <summary>
+            Objeto SqlConnection con la cadena de conexión a la base de datos InstitutoCODICE.
+            </summary>
+        </member>
+        <member name="M:Datos.CD_Conexion.ProbarConexion">
+            <summary>
+            Verifica si es posible establecer conexión con la base de datos.
+            </summary>
+            <returns>Retorna true si la conexión se establece exitosamente, false si ocurre un error.</returns>
+        </member>
+        <member name="M:Datos.CD_Conexion.AbrirConexion">
+            <summary>
+            Abre la conexión a la base de datos si está cerrada.
+            </summary>
+            <returns>Retorna el objeto SqlConnection abierto.</returns>
+        </member>
+        <member name="M:Datos.CD_Conexion.CerrarConexion">
+            <summary>
+            Cierra la conexión a la base de datos si está abierta.
+            </summary>
+            <returns>Retorna el objeto SqlConnection cerrado.</returns>
+        </member>
+        <member name="T:Datos.CD_Cursos">
+            <summary>
+            Clase que gestiona las operaciones de base de datos relacionadas con los cursos del instituto.
+            Implementa métodos para crear, leer y actualizar cursos en la base de datos.
+            </summary>
+        </member>
+        <member name="F:Datos.CD_Cursos._conexion">
+            <summary>
+            Instancia de conexión a la base de datos.
+            </summary>
+        </member>
+        <member name="M:Datos.CD_Cursos.CD_CrearCurso(System.String,System.Int32)">
+            <summary>
+            Crea un nuevo curso en el sistema.
+            </summary>
+            <param name="nombre">Nombre del curso a crear.</param>
+            <param name="usuarioid">Identificador del usuario que crea el curso.</param>
+            <returns>Retorna true si el curso se creó exitosamente, false en caso contrario.</returns>
+            <exception cref="T:System.Exception">Se lanza cuando ocurre un error al ejecutar el procedimiento almacenado.</exception>
+        </member>
+        <member name="M:Datos.CD_Cursos.CD_VerCursos">
+            <summary>
+            Obtiene todos los cursos registrados en el sistema.
+            </summary>
+            <returns>
+            Retorna un <see cref="T:System.Data.DataTable"/> que contiene todos los cursos
+            con sus respectivos datos (CursoID, NombreCurso).
+            Si no hay cursos, retorna un DataTable vacío.
+            </returns>
+            <exception cref="T:System.Exception">
+            Se lanza una excepción si ocurre un error durante la consulta a la base de datos.
+            </exception>
+            <remarks>
+            Este método ejecuta el procedimiento almacenado <c>SP_READ_LeerCursos</c>
+            para recuperar todos los registros de la tabla Curso.
+            </remarks>
+        </member>
+        <member name="M:Datos.CD_Cursos.CD_ActualizarCurso(System.Int32,System.String,System.Int32)">
+            <summary>
+            Actualiza los datos de un curso existente.
+            </summary>
+            <param name="cursoid">Identificador único del curso a actualizar.</param>
+            <param name="nombre">Nuevo nombre del curso.</param>
+            <param name="usuarioid">Identificador del usuario que realiza la actualización.</param>
+            <returns>Retorna true si el curso se actualizó exitosamente, false en caso contrario.</returns>
+            <exception cref="T:System.Exception">Se lanza cuando ocurre un error al ejecutar el procedimiento almacenado.</exception>
+        </member>
+        <member name="T:Datos.CD_Estudiante">
+            <summary>
+            Clase que gestiona las operaciones de base de datos relacionadas con los estudiantes.
+            Implementa métodos para crear, leer y actualizar estudiantes en la base de datos.
+            </summary>
+        </member>
+        <member name="F:Datos.CD_Estudiante.conexion">
+            <summary>
+            Instancia de conexión a la base de datos.
+            </summary>
+        </member>
+        <member name="M:Datos.CD_Estudiante.CD_CrearEstudiante(System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Registra un nuevo estudiante en el sistema.
+            </summary>
+            <param name="nombre">Nombre del estudiante.</param>
+            <param name="apellido">Apellido del estudiante.</param>
+            <param name="rut">RUT del estudiante.</param>
+            <param name="cursoID">Identificador del curso al que pertenece el estudiante.</param>
+            <param name="usuarioID">Identificador del usuario que registra al estudiante.</param>
+            <returns>Retorna true si el estudiante se registró exitosamente, false en caso contrario.</returns>
+            <exception cref="T:System.Exception">Se lanza cuando ocurre un error al ejecutar el procedimiento almacenado.</exception>
+        </member>
+        <member name="M:Datos.CD_Estudiante.CD_VerEstudiantes">
+            <summary>
+            Obtiene todos los estudiantes registrados en el sistema.
+            </summary>
+            <returns>
+            Retorna un <see cref="T:System.Data.DataTable"/> que contiene todas las asistencias
+            con sus respectivos datos (EstudianteID, NombreEstudiante, ApellidoEstudiante,
+            Rut, NombreCurso, NombreCompleto).
+            </returns>
+            <exception cref="T:System.Exception">
+            Se lanza una excepción si ocurre un error durante la consulta a la base de datos.
+            </exception>
+            <remarks>
+            Este método ejecuta el procedimiento almacenado <c>SP_READ_LeerEstudiantes</c>
+            para recuperar todos los registros de la tabla Estudiante.
+            </remarks>
+        </member>
+        <member name="M:Datos.CD_Estudiante.CD_ActualizarEstudiante(System.Int32,System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Actualiza los datos de un estudiante existente.
+            </summary>
+            <param name="estudianteID">Identificador único del estudiante a actualizar.</param>
+            <param name="nombre">Nuevo nombre del estudiante.</param>
+            <param name="apellido">Nuevo apellido del estudiante.</param>
+            <param name="rut">Nuevo RUT del estudiante.</param>
+            <param name="cursoID">Nuevo identificador del curso al que pertenece el estudiante.</param>
+            <param name="usuarioID">Identificador del usuario que realiza la actualización.</param>
+            <returns>Retorna true si el estudiante se actualizó exitosamente, false en caso contrario.</returns>
+            <exception cref="T:System.Exception">Se lanza cuando ocurre un error al ejecutar el procedimiento almacenado.</exception>
+        </member>
+        <member name="T:Datos.CD_Filtros">
+            <summary>
+            Clase que proporciona métodos de filtrado y consulta de datos específicos relacionados con estudiantes, cursos y asignaturas.
+            Permite obtener información filtrada para las diferentes vistas de la aplicación.
+            </summary>
+        </member>
+        <member name="M:Datos.CD_Filtros.CD_EstudiantesPorCurso(System.Int32)">
+            <summary>
+            Obtiene todos los estudiantes pertenecientes a un curso específico.
+            </summary>
+            <param name="cursoID">Identificador único del curso.</param>
+            <returns>
+            DataTable con la información de los estudiantes del curso especificado.
+            (EstudianteID, NombreCompleto)
+            </returns>
+        </member>
+        <member name="M:Datos.CD_Filtros.CD_AsignaturasPorCurso(System.Int32)">
+            <summary>
+            Obtiene todas las asignaturas asociadas a un curso específico.
+            </summary>
+            <param name="cursoID">Identificador único del curso.</param>
+            <returns>
+            DataTable con la información de las asignaturas del curso especificado
+            (AsignaturaID, NombreAsignatura).
+            </returns>
+        </member>
+        <member name="M:Datos.CD_Filtros.CD_EstudiantesPorAsignaturaYCurso(System.Int32,System.Int32)">
+            <summary>
+            Obtiene los estudiantes inscritos en una asignatura específica dentro de un curso determinado.
+            </summary>
+            <param name="cursoID">Identificador único del curso.</param>
+            <param name="asignaturaID">Identificador único de la asignatura.</param>
+            <returns>
+            DataTable con la información de los estudiantes que cursan la asignatura especificada
+            (CalificacionID, EstudianteID, Estudiante, AsignaturaID, Asignatura, Nota, FechaRegistro).
+            </returns>
+        </member>
+        <member name="M:Datos.CD_Filtros.CD_AsistenciasPorCursoYAsignatura(System.Int32,System.Int32)">
+            <summary>
+            Obtiene los registros de asistencia de los estudiantes para una asignatura y curso específicos.
+            </summary>
+            <param name="cursoID">Identificador único del curso.</param>
+            <param name="asignaturaID">Identificador único de la asignatura.</param>
+            <returns>
+            DataTable con la información de asistencias de los estudiantes en la asignatura y curso especificados.
+            (AsistenciaID, EstudianteID, Estudiante, AsignaturaID, Asignatura, FechaAsistencia, Estado)
+            </returns>
+        </member>
+        <member name="T:Datos.CD_Usuario">
+            <summary>
+            Clase que gestiona las operaciones de base de datos relacionadas con la autenticación y gestión de usuarios.
+            </summary>
+        </member>
+        <member name="F:Datos.CD_Usuario.conexion">
+            <summary>
+            Instancia de conexión a la base de datos.
+            </summary>
+        </member>
+        <member name="M:Datos.CD_Usuario.RegistrarUsuario(System.String,System.String,System.String)">
+            <summary>
+            Registra un nuevo usuario en el sistema.
+            </summary>
+            <param name="nombre">Nombre del usuario.</param>
+            <param name="correo">Correo electrónico del usuario.</param>
+            <param name="clave">Contraseña del usuario.</param>
+            <returns>Retorna true si el usuario se registró exitosamente, false en caso contrario.</returns>
+            <exception cref="T:System.Exception">Se lanza cuando ocurre un error al ejecutar el procedimiento almacenado.</exception>
+        </member>
+        <member name="M:Datos.CD_Usuario.ValidarUsuario(System.String,System.String)">
+            <summary>
+            Valida las credenciales de un usuario para autenticación en el sistema.
+            </summary>
+            <param name="correo">Correo electrónico del usuario.</param>
+            <param name="clave">Contraseña del usuario.</param>
+            <returns>DataTable con la información del usuario si las credenciales son válidas, tabla vacía en caso contrario.</returns>
+            <exception cref="T:System.Exception">Se lanza cuando ocurre un error al ejecutar el procedimiento almacenado.</exception>
+        </member>
+        <member name="T:Datos.DataSet1">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+    </members>
+</doc>

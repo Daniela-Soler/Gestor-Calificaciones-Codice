@@ -1,0 +1,318 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Negocio</name>
+    </assembly>
+    <members>
+        <member name="T:Negocio.CN_Asignatura">
+            <summary>
+            Clase de lógica de negocio que gestiona las operaciones relacionadas con asignaturas.
+            Incluye validaciones antes de interactuar con la capa de datos.
+            </summary>
+        </member>
+        <member name="M:Negocio.CN_Asignatura.CN_CrearAsignatura(System.Int32,System.String,System.Int32)">
+            <summary>
+            Crea una nueva asignatura con validaciones de negocio.
+            </summary>
+            <param name="cursoID">Identificador único del curso al que pertenece la asignatura.</param>
+            <param name="nombre">Nombre de la asignatura.</param>
+            <param name="usuarioID">Identificador del usuario que crea la asignatura.</param>
+            <returns>Retorna true si la asignatura se creó exitosamente, false en caso contrario.</returns>
+            <exception cref="T:System.Exception">
+            Se lanza cuando las validaciones de negocio fallan o hay errores en la capa de datos.
+            </exception>
+        </member>
+        <member name="M:Negocio.CN_Asignatura.CN_VerAsignaturas">
+            <summary>
+            Obtiene todas las asignaturas registradas en el sistema.
+            </summary>
+            <returns>DataTable con la información de todas las asignaturas.</returns>
+            <exception cref="T:System.Exception">Se lanza cuando ocurre un error al obtener los datos.</exception>
+        </member>
+        <member name="M:Negocio.CN_Asignatura.CN_ActualizarAsignatura(System.Int32,System.Int32,System.String,System.Int32)">
+            <summary>
+            Actualiza los datos de una asignatura existente con validaciones de negocio.
+            </summary>
+            <param name="asignaturaID">Identificador único de la asignatura a actualizar.</param>
+            <param name="cursoID">Nuevo identificador del curso al que pertenece la asignatura.</param>
+            <param name="nombre">Nuevo nombre de la asignatura.</param>
+            <param name="usuarioID">Identificador del usuario que realiza la actualización.</param>
+            <returns>Retorna true si la asignatura se actualizó exitosamente, false en caso contrario.</returns>
+            <exception cref="T:System.Exception">
+            Se lanza cuando las validaciones de negocio fallan o hay errores en la capa de datos.
+            </exception>
+        </member>
+        <member name="T:Negocio.CN_Asistencia">
+            <summary>
+            Clase de lógica de negocio que gestiona las operaciones relacionadas con asistencias de estudiantes.
+            Incluye validaciones antes de interactuar con la capa de datos.
+            </summary>
+        </member>
+        <member name="M:Negocio.CN_Asistencia.CN_IngresarAsistencia(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Int32)">
+            <summary>
+            Registra una nueva asistencia de un estudiante con validaciones de negocio.
+            </summary>
+            <param name="estudianteID">Identificador único del estudiante.</param>
+            <param name="asignaturaID">Identificador único de la asignatura.</param>
+            <param name="fecha">Fecha en la que se registra la asistencia.</param>
+            <param name="estado">Estado de la asistencia (true para presente, false para ausente).</param>
+            <param name="usuarioID">Identificador del usuario que registra la asistencia.</param>
+            <returns>Retorna true si la asistencia se registró exitosamente, false en caso contrario.</returns>
+            <exception cref="T:System.Exception">
+            Se lanza cuando las validaciones de negocio fallan o hay errores en la capa de datos.
+            </exception>
+        </member>
+        <member name="M:Negocio.CN_Asistencia.CN_VerAsistencias">
+            <summary>
+            Obtiene todas las asistencias registradas en el sistema.
+            </summary>
+            <returns>DataTable con la información de todas las asistencias.</returns>
+            <exception cref="T:System.Exception">Se lanza cuando ocurre un error al obtener los datos.</exception>
+        </member>
+        <member name="M:Negocio.CN_Asistencia.CN_ActualizarAsistencia(System.Int32,System.Int32,System.Int32,System.DateTime,System.Boolean,System.Int32)">
+            <summary>
+            Actualiza los datos de una asistencia existente con validaciones de negocio.
+            </summary>
+            <param name="asistenciaID">Identificador único de la asistencia a actualizar.</param>
+            <param name="estudianteID">Identificador único del estudiante.</param>
+            <param name="asignaturaID">Identificador único de la asignatura.</param>
+            <param name="fecha">Nueva fecha de la asistencia.</param>
+            <param name="estado">Nuevo estado de la asistencia (true para presente, false para ausente).</param>
+            <param name="usuarioID">Identificador del usuario que realiza la actualización.</param>
+            <returns>Retorna true si la asistencia se actualizó exitosamente, false en caso contrario.</returns>
+            <exception cref="T:System.Exception">
+            Se lanza cuando las validaciones de negocio fallan o hay errores en la capa de datos.
+            </exception>
+        </member>
+        <member name="T:Negocio.CN_Calificacion">
+            <summary>
+            Clase de lógica de negocio que gestiona las operaciones relacionadas con calificaciones de estudiantes.
+            Incluye validaciones de rango de notas y otras reglas de negocio antes de interactuar con la capa de datos.
+            </summary>
+        </member>
+        <member name="M:Negocio.CN_Calificacion.CN_IngresarCalificacion(System.Int32,System.Int32,System.Decimal,System.DateTime,System.Int32)">
+            <summary>
+            Registra una nueva calificación para un estudiante con validaciones de negocio.
+            Valida que la nota esté en el rango permitido (0 a 7).
+            </summary>
+            <param name="estudianteID">Identificador único del estudiante.</param>
+            <param name="asignaturaID">Identificador único de la asignatura.</param>
+            <param name="nota">Valor de la nota obtenida (debe estar entre 0 y 7).</param>
+            <param name="fecha">Fecha en la que se registra la calificación.</param>
+            <param name="usuarioID">Identificador del usuario que registra la calificación.</param>
+            <returns>Retorna true si la calificación se registró exitosamente, false en caso contrario.</returns>
+            <exception cref="T:System.Exception">
+            Se lanza cuando las validaciones de negocio fallan o hay errores en la capa de datos.
+            </exception>
+        </member>
+        <member name="M:Negocio.CN_Calificacion.CN_VerCalificaciones">
+            <summary>
+            Obtiene todas las calificaciones registradas en el sistema.
+            </summary>
+            <returns>DataTable con la información de todas las calificaciones.</returns>
+            <exception cref="T:System.Exception">Se lanza cuando ocurre un error al obtener los datos.</exception>
+        </member>
+        <member name="M:Negocio.CN_Calificacion.CN_ActualizarCalificacion(System.Int32,System.Int32,System.Int32,System.Decimal,System.DateTime,System.Int32)">
+            <summary>
+            Actualiza los datos de una calificación existente con validaciones de negocio.
+            Valida que la nota esté en el rango permitido (0 a 7).
+            </summary>
+            <param name="calificacionID">Identificador único de la calificación a actualizar.</param>
+            <param name="estudianteID">Identificador único del estudiante.</param>
+            <param name="asignaturaID">Identificador único de la asignatura.</param>
+            <param name="nota">Nuevo valor de la nota (debe estar entre 0 y 7).</param>
+            <param name="fecha">Nueva fecha de registro de la calificación.</param>
+            <param name="usuarioID">Identificador del usuario que realiza la actualización.</param>
+            <returns>Retorna true si la calificación se actualizó exitosamente, false en caso contrario.</returns>
+            <exception cref="T:System.Exception">
+            Se lanza cuando las validaciones de negocio fallan o hay errores en la capa de datos.
+            </exception>
+        </member>
+        <member name="T:Negocio.CN_Conexion">
+            <summary>
+            Clase de lógica de negocio que verifica la conectividad con la base de datos.
+            Actúa como intermediario entre la capa de presentación y la capa de datos para validar conexiones.
+            </summary>
+        </member>
+        <member name="F:Negocio.CN_Conexion.cdc">
+            <summary>
+            Instancia de la clase de conexión de la capa de datos.
+            </summary>
+        </member>
+        <member name="M:Negocio.CN_Conexion.CN_VerificarConexion">
+            <summary>
+            Verifica si es posible establecer conexión con la base de datos.
+            </summary>
+            <returns>Retorna true si la conexión se establece exitosamente, false en caso contrario.</returns>
+            <exception cref="T:System.Exception">
+            Se lanza cuando ocurre un error al intentar conectar con la base de datos.
+            </exception>
+        </member>
+        <member name="T:Negocio.CN_Cursos">
+            <summary>
+            Clase de lógica de negocio que gestiona las operaciones relacionadas con cursos.
+            Incluye validaciones de longitud de campos y otras reglas de negocio antes de interactuar con la capa de datos.
+            </summary>
+        </member>
+        <member name="M:Negocio.CN_Cursos.CN_CrearCurso(System.String,System.Int32)">
+            <summary>
+            Crea un nuevo curso con validaciones de negocio.
+            Valida que el nombre no esté vacío y no exceda los 50 caracteres.
+            </summary>
+            <param name="nombre">Nombre del curso.</param>
+            <param name="usuarioid">Identificador del usuario que crea el curso.</param>
+            <returns>Retorna true si el curso se creó exitosamente, false en caso contrario.</returns>
+            <exception cref="T:System.Exception">
+            Se lanza cuando las validaciones de negocio fallan o hay errores en la capa de datos.
+            </exception>
+        </member>
+        <member name="M:Negocio.CN_Cursos.CN_VerCursos">
+            <summary>
+            Obtiene todos los cursos registrados en el sistema.
+            </summary>
+            <returns>DataTable con la información de todos los cursos.</returns>
+            <exception cref="T:System.Exception">Se lanza cuando ocurre un error al obtener los datos.</exception>
+        </member>
+        <member name="M:Negocio.CN_Cursos.CN_ActualizarCurso(System.Int32,System.String,System.Int32)">
+            <summary>
+            Actualiza los datos de un curso existente con validaciones de negocio.
+            Valida que el nombre sea válido y que el usuario tenga sesión activa.
+            </summary>
+            <param name="cursoID">Identificador único del curso a actualizar.</param>
+            <param name="nombre">Nuevo nombre del curso.</param>
+            <param name="usuarioID">Identificador del usuario que realiza la actualización.</param>
+            <returns>Retorna true si el curso se actualizó exitosamente, false en caso contrario.</returns>
+            <exception cref="T:System.Exception">
+            Se lanza cuando las validaciones de negocio fallan o hay errores en la capa de datos.
+            </exception>
+        </member>
+        <member name="T:Negocio.CN_Estudiante">
+            <summary>
+            Clase de lógica de negocio que gestiona las operaciones relacionadas con estudiantes.
+            Incluye validaciones de campos obligatorios, longitud de datos y otras reglas de negocio.
+            </summary>
+        </member>
+        <member name="M:Negocio.CN_Estudiante.CN_CrearEstudiante(System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Crea un nuevo estudiante con validaciones exhaustivas de negocio.
+            Valida campos obligatorios, longitud máxima de caracteres y sesión de usuario.
+            </summary>
+            <param name="nombre">Nombre del estudiante (máximo 50 caracteres).</param>
+            <param name="apellido">Apellido del estudiante (máximo 50 caracteres).</param>
+            <param name="rut">RUT del estudiante (máximo 20 caracteres).</param>
+            <param name="cursoID">Identificador del curso al que pertenece el estudiante.</param>
+            <param name="usuarioID">Identificador del usuario que registra al estudiante.</param>
+            <returns>Retorna true si el estudiante se creó exitosamente, false en caso contrario.</returns>
+            <exception cref="T:System.Exception">
+            Se lanza cuando las validaciones de negocio fallan o hay errores en la capa de datos.
+            </exception>
+        </member>
+        <member name="M:Negocio.CN_Estudiante.CN_VerEstudiantes">
+            <summary>
+            Obtiene todos los estudiantes registrados en el sistema.
+            </summary>
+            <returns>DataTable con la información de todos los estudiantes.</returns>
+            <exception cref="T:System.Exception">Se lanza cuando ocurre un error al obtener los datos.</exception>
+        </member>
+        <member name="M:Negocio.CN_Estudiante.CN_ActualizarEstudiante(System.Int32,System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Actualiza los datos de un estudiante existente con validaciones exhaustivas de negocio.
+            Valida campos obligatorios, longitud máxima de caracteres y sesión de usuario.
+            </summary>
+            <param name="estudianteID">Identificador único del estudiante a actualizar.</param>
+            <param name="nombre">Nuevo nombre del estudiante (máximo 50 caracteres).</param>
+            <param name="apellido">Nuevo apellido del estudiante (máximo 50 caracteres).</param>
+            <param name="rut">Nuevo RUT del estudiante (máximo 20 caracteres).</param>
+            <param name="cursoID">Nuevo identificador del curso al que pertenece el estudiante.</param>
+            <param name="usuarioID">Identificador del usuario que realiza la actualización.</param>
+            <returns>Retorna true si el estudiante se actualizó exitosamente, false en caso contrario.</returns>
+            <exception cref="T:System.Exception">
+            Se lanza cuando las validaciones de negocio fallan o hay errores en la capa de datos.
+            </exception>
+        </member>
+        <member name="T:Negocio.CN_Filtros">
+            <summary>
+            Clase de lógica de negocio que proporciona métodos de filtrado para consultas específicas.
+            Permite obtener datos filtrados por curso, asignatura o combinaciones de ambos.
+            </summary>
+        </member>
+        <member name="M:Negocio.CN_Filtros.CN_EstudiantesPorCurso(System.Int32)">
+            <summary>
+            Obtiene todos los estudiantes pertenecientes a un curso específico con validación.
+            </summary>
+            <param name="cursoID">Identificador único del curso.</param>
+            <returns>DataTable con la información de los estudiantes del curso especificado.</returns>
+            <exception cref="T:System.Exception">
+            Se lanza cuando el curso no es válido o hay errores al obtener los datos.
+            </exception>
+        </member>
+        <member name="M:Negocio.CN_Filtros.CN_AsignaturasPorCurso(System.Int32)">
+            <summary>
+            Obtiene todas las asignaturas asociadas a un curso específico con validación.
+            </summary>
+            <param name="cursoID">Identificador único del curso.</param>
+            <returns>DataTable con la información de las asignaturas del curso especificado.</returns>
+            <exception cref="T:System.Exception">
+            Se lanza cuando el curso no es válido o hay errores al obtener los datos.
+            </exception>
+        </member>
+        <member name="M:Negocio.CN_Filtros.CN_EstudiantesPorAsignaturaYCurso(System.Int32,System.Int32)">
+            <summary>
+            Obtiene los estudiantes inscritos en una asignatura específica dentro de un curso determinado.
+            Valida que tanto el curso como la asignatura sean válidos.
+            </summary>
+            <param name="cursoID">Identificador único del curso.</param>
+            <param name="asignaturaID">Identificador único de la asignatura.</param>
+            <returns>DataTable con la información de los estudiantes que cursan la asignatura especificada.</returns>
+            <exception cref="T:System.Exception">
+            Se lanza cuando los identificadores no son válidos o hay errores al obtener los datos.
+            </exception>
+        </member>
+        <member name="M:Negocio.CN_Filtros.CN_AsistenciasPorCursoYAsignatura(System.Int32,System.Int32)">
+            <summary>
+            Obtiene los registros de asistencia de los estudiantes para una asignatura y curso específicos.
+            Valida que tanto el curso como la asignatura sean válidos.
+            </summary>
+            <param name="cursoID">Identificador único del curso.</param>
+            <param name="asignaturaID">Identificador único de la asignatura.</param>
+            <returns>DataTable con la información de asistencias de los estudiantes en la asignatura y curso especificados.</returns>
+            <exception cref="T:System.Exception">
+            Se lanza cuando los identificadores no son válidos o hay errores al obtener los datos.
+            </exception>
+        </member>
+        <member name="T:Negocio.CN_Usuario">
+            <summary>
+            Clase de lógica de negocio que gestiona la autenticación y registro de usuarios en el sistema.
+            Incluye validaciones de campos obligatorios antes de interactuar con la capa de datos.
+            </summary>
+        </member>
+        <member name="M:Negocio.CN_Usuario.VerificarInicioSesion(System.String,System.String)">
+            <summary>
+            Verifica las credenciales de un usuario para permitir el inicio de sesión.
+            Valida que los campos de correo y contraseña no estén vacíos.
+            </summary>
+            <param name="correo">Correo electrónico del usuario.</param>
+            <param name="clave">Contraseña del usuario.</param>
+            <returns>
+            DataTable con la información del usuario si las credenciales son válidas, tabla vacía en caso 
+            contrario.
+            </returns>
+            <exception cref="T:System.Exception">
+            Se lanza cuando los campos obligatorios están vacíos o hay errores al validar las credenciales.
+            </exception>
+        </member>
+        <member name="M:Negocio.CN_Usuario.IngresarUsuario(System.String,System.String,System.String)">
+            <summary>
+            Registra un nuevo usuario en el sistema con validaciones de campos obligatorios.
+            Valida que nombre, correo y contraseña no estén vacíos antes de proceder con el registro.
+            </summary>
+            <param name="nombre">Nombre del usuario.</param>
+            <param name="correo">Correo electrónico del usuario.</param>
+            <param name="clave">Contraseña del usuario.</param>
+            <returns>Retorna true si el usuario se registró exitosamente, false en caso contrario.</returns>
+            <exception cref="T:System.Exception">
+            Se lanza cuando los campos obligatorios están vacíos o hay errores al registrar el usuario.
+            </exception>
+        </member>
+    </members>
+</doc>

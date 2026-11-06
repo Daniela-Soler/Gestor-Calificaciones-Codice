@@ -1,0 +1,48 @@
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Negocio\bin\Debug\net8.0\Negocio.deps.json
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Negocio\bin\Debug\net8.0\Negocio.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Negocio\bin\Debug\net8.0\Negocio.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Negocio\bin\Debug\net8.0\Datos.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Negocio\bin\Debug\net8.0\Datos.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.csproj.AssemblyReference.cache
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.AssemblyInfoInputs.cache
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.AssemblyInfo.cs
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.csproj.Up2Date
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\refint\Negocio.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\ref\Negocio.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\bin\Debug\net8.0\Negocio.deps.json
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\bin\Debug\net8.0\Negocio.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\bin\Debug\net8.0\Negocio.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\bin\Debug\net8.0\Datos.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\bin\Debug\net8.0\Datos.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.csproj.AssemblyReference.cache
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.AssemblyInfoInputs.cache
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.AssemblyInfo.cs
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.csproj.Up2Date
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\refint\Negocio.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\ref\Negocio.dll
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\bin\Debug\net8.0\Negocio.deps.json
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\bin\Debug\net8.0\Negocio.dll
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\bin\Debug\net8.0\Negocio.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\bin\Debug\net8.0\Negocio.xml
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\bin\Debug\net8.0\Datos.dll
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\bin\Debug\net8.0\Datos.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\bin\Debug\net8.0\Datos.xml
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.csproj.AssemblyReference.cache
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.AssemblyInfoInputs.cache
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.AssemblyInfo.cs
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.csproj.Up2Date
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.dll
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\refint\Negocio.dll
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.xml
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\Negocio.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Negocio\obj\Debug\net8.0\ref\Negocio.dll
