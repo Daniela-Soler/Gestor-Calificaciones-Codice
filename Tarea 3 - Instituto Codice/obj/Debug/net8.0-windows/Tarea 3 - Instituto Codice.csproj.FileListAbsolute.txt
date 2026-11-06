@@ -1,0 +1,109 @@
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Tarea 3 - Instituto Codice.exe
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Tarea 3 - Instituto Codice.deps.json
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Tarea 3 - Instituto Codice.runtimeconfig.json
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Tarea 3 - Instituto Codice.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Tarea 3 - Instituto Codice.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Datos.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Negocio.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Negocio.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Datos.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.csproj.AssemblyReference.cache
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea_3___Instituto_Codice.Form1.resources
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea_3___Instituto_Codice.GestionEstudiantes.resources
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea_3___Instituto_Codice.MenuPrincipal.resources
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.csproj.GenerateResource.cache
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.AssemblyInfoInputs.cache
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.AssemblyInfo.cs
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.csproj.CoreCompileInputs.cache
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 .91F9EF06.Up2Date
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\refint\Tarea 3 - Instituto Codice.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.genruntimeconfig.cache
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\ref\Tarea 3 - Instituto Codice.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea_3___Instituto_Codice.GestionAsignaturas.resources
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea_3___Instituto_Codice.GestionAsistencia.resources
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea_3___Instituto_Codice.GestionCalificaciones.resources
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea_3___Instituto_Codice.GestionCursos.resources
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba N\Tarea 3\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea_3___Instituto_Codice.RegistrarUsuario.resources
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Tarea 3 - Instituto Codice.exe
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Tarea 3 - Instituto Codice.deps.json
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Tarea 3 - Instituto Codice.runtimeconfig.json
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Tarea 3 - Instituto Codice.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Tarea 3 - Instituto Codice.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Datos.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Negocio.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Negocio.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Datos.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.csproj.AssemblyReference.cache
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea_3___Instituto_Codice.Form1.resources
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea_3___Instituto_Codice.GestionAsignaturas.resources
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea_3___Instituto_Codice.GestionAsistencia.resources
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea_3___Instituto_Codice.GestionCalificaciones.resources
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea_3___Instituto_Codice.GestionCursos.resources
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea_3___Instituto_Codice.GestionEstudiantes.resources
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea_3___Instituto_Codice.MenuPrincipal.resources
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea_3___Instituto_Codice.RegistrarUsuario.resources
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.csproj.GenerateResource.cache
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.AssemblyInfoInputs.cache
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.AssemblyInfo.cs
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.csproj.CoreCompileInputs.cache
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 .91F9EF06.Up2Date
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\refint\Tarea 3 - Instituto Codice.dll
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.genruntimeconfig.cache
+C:\Users\spyro\Downloads\Taller de Programación\Proyecto prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\ref\Tarea 3 - Instituto Codice.dll
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Tarea 3 - Instituto Codice.exe
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Tarea 3 - Instituto Codice.deps.json
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Tarea 3 - Instituto Codice.runtimeconfig.json
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Tarea 3 - Instituto Codice.dll
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Tarea 3 - Instituto Codice.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Tarea 3 - Instituto Codice.xml
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Datos.dll
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Negocio.dll
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Negocio.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Negocio.xml
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Datos.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\bin\Debug\net8.0-windows\Datos.xml
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.csproj.AssemblyReference.cache
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea_3___Instituto_Codice.Form1.resources
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea_3___Instituto_Codice.GestionAsignaturas.resources
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea_3___Instituto_Codice.GestionAsistencia.resources
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea_3___Instituto_Codice.GestionCalificaciones.resources
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea_3___Instituto_Codice.GestionCursos.resources
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea_3___Instituto_Codice.GestionEstudiantes.resources
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea_3___Instituto_Codice.MenuPrincipal.resources
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea_3___Instituto_Codice.RegistrarUsuario.resources
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.csproj.GenerateResource.cache
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.AssemblyInfoInputs.cache
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.AssemblyInfo.cs
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.csproj.CoreCompileInputs.cache
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 .91F9EF06.Up2Date
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.dll
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\refint\Tarea 3 - Instituto Codice.dll
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.xml
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.pdb
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\Tarea 3 - Instituto Codice.genruntimeconfig.cache
+C:\Users\spyro\Downloads\Taller de Programación\Prueba ENE\Tarea 3\Tarea 3D\Tarea 3 - Instituto Codice\Tarea 3 - Instituto Codice\obj\Debug\net8.0-windows\ref\Tarea 3 - Instituto Codice.dll

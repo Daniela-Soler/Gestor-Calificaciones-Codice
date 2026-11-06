@@ -1,0 +1,807 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tarea 3 - Instituto Codice</name>
+    </assembly>
+    <members>
+        <member name="T:Tarea_3___Instituto_Codice.Form1">
+            <summary>
+            Formulario principal de inicio de sesión de la aplicación Instituto CODICE.
+            Permite a los usuarios autenticarse en el sistema y verificar la conexión con la base de datos.
+            </summary>
+        </member>
+        <member name="F:Tarea_3___Instituto_Codice.Form1.cnc">
+            <summary>
+            Instancia de la clase de negocio para verificar la conexión con la base de datos.
+            </summary>
+        </member>
+        <member name="F:Tarea_3___Instituto_Codice.Form1.usuario">
+            <summary>
+            Instancia de la clase de negocio para gestionar operaciones de usuario.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.Form1.#ctor">
+            <summary>
+            Inicializa una nueva instancia del formulario de inicio de sesión.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.Form1.ConexionBD_Click(System.Object,System.EventArgs)">
+            <summary>
+            Maneja el evento Click del botón de prueba de conexión a la base de datos.
+            Verifica si es posible conectarse a la base de datos y muestra un mensaje con el resultado.
+            </summary>
+            <param name="sender">Objeto que generó el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.Form1.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Maneja el evento Click del botón de inicio de sesión.
+            Valida las credenciales del usuario y, si son correctas, inicia la sesión y abre el menú principal.
+            </summary>
+            <param name="sender">Objeto que generó el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+            <remarks>
+            Si las credenciales son válidas, almacena la información del usuario en la clase SesionUsuario
+            y abre el formulario MenuPrincipal.
+            </remarks>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.Form1.BtnCrearUsuario_Click(System.Object,System.EventArgs)">
+            <summary>
+            Maneja el evento Click del botón para crear un nuevo usuario.
+            Abre el formulario de registro de nuevos usuarios.
+            </summary>
+            <param name="sender">Objeto que generó el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="F:Tarea_3___Instituto_Codice.Form1.components">
+            <summary>
+             Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.Form1.Dispose(System.Boolean)">
+            <summary>
+             Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.Form1.InitializeComponent">
+            <summary>
+             Required method for Designer support - do not modify
+             the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Tarea_3___Instituto_Codice.GestionAsignaturas">
+            <summary>
+            Formulario para la gestión completa de asignaturas del Instituto CODICE.
+            Permite crear, visualizar y actualizar asignaturas asociadas a cursos específicos.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsignaturas.#ctor">
+            <summary>
+            Inicializa una nueva instancia del formulario de gestión de asignaturas.
+            Carga las listas de cursos y asignaturas disponibles.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsignaturas.GestionAsignaturas_Load(System.Object,System.EventArgs)">
+            <summary>
+            Maneja el evento Load del formulario.
+            Carga y muestra todas las asignaturas en el DataGridView al iniciar el formulario.
+            </summary>
+            <param name="sender">Objeto que generó el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsignaturas.MostrarAsignaturas">
+            <summary>
+            Carga y muestra todas las asignaturas registradas en el sistema en el DataGridView.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsignaturas.ListaCursosCrear">
+            <summary>
+            Carga la lista de cursos disponibles en el ComboBox del formulario de creación de asignaturas.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsignaturas.ListaCursosAct">
+            <summary>
+            Carga la lista de cursos disponibles en el ComboBox del formulario de actualización de asignaturas.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsignaturas.ListaAsignaturas">
+            <summary>
+            Carga la lista de todas las asignaturas registradas en el ComboBox del formulario de actualización.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsignaturas.BtnCrearAsignatura_Click(System.Object,System.EventArgs)">
+            <summary>
+            Maneja el evento Click del botón para crear una nueva asignatura.
+            Valida los datos y registra la nueva asignatura en el sistema.
+            </summary>
+            <param name="sender">Objeto que generó el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+            <remarks>
+            Muestra mensajes de confirmación o error según el resultado de la operación.
+            Utiliza el ID del usuario en sesión para el registro.
+            </remarks>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsignaturas.BtnLimpiarForm_Click(System.Object,System.EventArgs)">
+            <summary>
+            Maneja el evento Click del botón para limpiar el formulario de creación.
+            Restablece todos los campos del formulario de creación a sus valores predeterminados.
+            </summary>
+            <param name="sender">Objeto que generó el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsignaturas.BtnLimpiarFormAct_Click(System.Object,System.EventArgs)">
+            <summary>
+            Maneja el evento Click del botón para limpiar el formulario de actualización.
+            Restablece todos los campos del formulario de actualización a sus valores predeterminados.
+            </summary>
+            <param name="sender">Objeto que generó el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsignaturas.BtnActualizarAsignatura_Click(System.Object,System.EventArgs)">
+            <summary>
+            Maneja el evento Click del botón para actualizar una asignatura existente.
+            Valida los datos y actualiza la información de la asignatura seleccionada.
+            </summary>
+            <param name="sender">Objeto que generó el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+            <remarks>
+            Muestra mensajes de confirmación o error según el resultado de la operación.
+            Utiliza el ID del usuario en sesión para registrar la actualización.
+            </remarks>
+        </member>
+        <member name="F:Tarea_3___Instituto_Codice.GestionAsignaturas.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsignaturas.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsignaturas.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Tarea_3___Instituto_Codice.GestionAsistencia">
+            <summary>
+            Formulario para la gestión completa de asistencias del Instituto CODICE.
+            Permite registrar y actualizar asistencias de estudiantes por curso y asignatura.
+            Incluye filtrado dinámico y visualización en DataGridView con checkboxes para marcar asistencia.
+            </summary>
+        </member>
+        <member name="F:Tarea_3___Instituto_Codice.GestionAsistencia.asistenciaSeleccionadaID">
+            <summary>
+            Almacena el ID de la asistencia seleccionada para actualización.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsistencia.#ctor">
+            <summary>
+            Inicializa una nueva instancia del formulario de gestión de asistencias.
+            Configura los eventos del DataGridView para manejar cambios en tiempo real.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsistencia.GestionAsistencia_Load(System.Object,System.EventArgs)">
+            <summary>
+            Maneja el evento Load del formulario.
+            Carga las listas de cursos para los formularios de creación y actualización.
+            </summary>
+            <param name="sender">Objeto que generó el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsistencia.CargarCursos">
+            <summary>
+            Carga la lista de cursos disponibles en el ComboBox del formulario de creación de asistencias.
+            Desactiva temporalmente el evento SelectedIndexChanged para evitar ejecuciones no deseadas.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsistencia.LimpiarAsignaturas">
+            <summary>
+            Limpia y deshabilita el ComboBox de asignaturas del formulario de creación.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsistencia.CbSeleccionarCursoCrear_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Maneja el evento SelectedIndexChanged del ComboBox de cursos en el formulario de creación.
+            Carga las asignaturas correspondientes al curso seleccionado.
+            </summary>
+            <param name="sender">Objeto que generó el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsistencia.CbSeleccionarAsignaturaCrear_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Maneja el evento SelectedIndexChanged del ComboBox de asignaturas en el formulario de creación.
+            Carga los estudiantes del curso seleccionado en un DataGridView con columna de checkbox para marcar asistencia.
+            </summary>
+            <param name="sender">Objeto que generó el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsistencia.BtnIngresarAsistencia_Click(System.Object,System.EventArgs)">
+            <summary>
+            Maneja el evento Click del botón para registrar asistencias.
+            Recorre todas las filas del DataGridView y registra la asistencia de cada estudiante según el estado del checkbox.
+            </summary>
+            <param name="sender">Objeto que generó el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+            <remarks>
+            Valida que se hayan seleccionado curso y asignatura antes de proceder.
+            Muestra un resumen con el número de registros exitosos y fallidos.
+            </remarks>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsistencia.BtnLimpiarFormCrear_Click(System.Object,System.EventArgs)">
+            <summary>
+            Maneja el evento Click del botón para limpiar el formulario de creación de asistencias.
+            Restablece todos los campos y controles a sus valores predeterminados.
+            </summary>
+            <param name="sender">Objeto que generó el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsistencia.CargarCursosActualizar">
+            <summary>
+            Carga la lista de cursos disponibles en el ComboBox del formulario de actualización de asistencias.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsistencia.LimpiarAsignaturasActualizar">
+            <summary>
+            Limpia y deshabilita el ComboBox de asignaturas del formulario de actualización.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsistencia.CbSeleccionarCursoAct_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Maneja el evento SelectedIndexChanged del ComboBox de cursos en el formulario de actualización.
+            Carga las asignaturas correspondientes al curso seleccionado.
+            </summary>
+            <param name="sender">Objeto que generó el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsistencia.CbSeleccionarAsignaturaAct_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Maneja el evento SelectedIndexChanged del ComboBox de asignaturas en el formulario de actualización.
+            Filtra y muestra las asistencias registradas para el curso y asignatura seleccionados.
+            </summary>
+            <param name="sender">Objeto que generó el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsistencia.PersonalizarDataGridViewActualizar">
+            <summary>
+            Personaliza la apariencia y configuración del DataGridView de actualización.
+            Oculta columnas no necesarias, establece nombres de encabezados y configura propiedades de solo lectura.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsistencia.dataGridViewAct_CurrentCellDirtyStateChanged(System.Object,System.EventArgs)">
+            <summary>
+            Maneja el evento CurrentCellDirtyStateChanged del DataGridView de actualización.
+            Confirma inmediatamente los cambios realizados en las celdas para habilitar la edición en tiempo real.
+            </summary>
+            <param name="sender">Objeto que generó el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsistencia.dataGridViewAct_SelectionChanged(System.Object,System.EventArgs)">
+            <summary>
+            Maneja el evento SelectionChanged del DataGridView de actualización.
+            Captura el ID de la asistencia seleccionada y habilita/deshabilita el botón de actualización según corresponda.
+            </summary>
+            <param name="sender">Objeto que generó el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsistencia.dataGridViewAct_CellValueChanged(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+            <summary>
+            Maneja el evento CellValueChanged del DataGridView de actualización.
+            Detecta cambios en la columna de estado de asistencia y prepara el registro para actualización.
+            </summary>
+            <param name="sender">Objeto que generó el evento.</param>
+            <param name="e">Argumentos del evento que contiene el índice de fila y columna modificada.</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsistencia.BtnActualizarAsistencia_Click(System.Object,System.EventArgs)">
+            <summary>
+            Maneja el evento Click del botón para actualizar una asistencia existente.
+            Valida la selección, confirma con el usuario y actualiza el registro de asistencia con la fecha actual.
+            </summary>
+            <param name="sender">Objeto que generó el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+            <remarks>
+            Muestra un diálogo de confirmación con los detalles del cambio antes de proceder.
+            Actualiza la fecha de registro a la fecha actual del sistema.
+            Recarga el DataGridView después de una actualización exitosa.
+            </remarks>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsistencia.BtnLimpiarFormAct_Click(System.Object,System.EventArgs)">
+            <summary>
+            Maneja el evento Click del botón para limpiar el formulario de actualización de asistencias.
+            Restablece todos los campos y controles a sus valores predeterminados y deshabilita el botón de actualización.
+            </summary>
+            <param name="sender">Objeto que generó el evento.</param>
+            <param name="e">Argumentos del evento.</param>
+        </member>
+        <member name="F:Tarea_3___Instituto_Codice.GestionAsistencia.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsistencia.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionAsistencia.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Tarea_3___Instituto_Codice.GestionCalificaciones">
+            <summary>
+            Formulario de gestión de calificaciones del sistema Instituto Códice.
+            Permite ingresar nuevas calificaciones y actualizar las existentes.
+            </summary>
+            <remarks>
+            Este formulario implementa dos secciones principales:
+            - Ingresar Calificación: Para registrar nuevas calificaciones de estudiantes
+            - Actualizar Calificación: Para modificar calificaciones existentes
+            </remarks>
+        </member>
+        <member name="F:Tarea_3___Instituto_Codice.GestionCalificaciones.calificacionSeleccionadaID">
+            <summary>
+            ID de la calificación seleccionada en el DataGridView de actualización.
+            Se utiliza para identificar qué calificación se va a modificar.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCalificaciones.#ctor">
+            <summary>
+            Constructor de la clase GestionCalificaciones.
+            Inicializa los componentes del formulario.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCalificaciones.GestionCalificaciones_Load(System.Object,System.EventArgs)">
+            <summary>
+            Se ejecuta cuando se carga el formulario.
+            Inicializa los datos de ambas secciones (Ingresar y Actualizar).
+            </summary>
+            <param name="sender">Objeto que dispara el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCalificaciones.ListaCursosFormCrear">
+            <summary>
+            Carga la lista de cursos disponibles en el ComboBox de la sección "Ingresar Calificación".
+            </summary>
+            <remarks>
+            Desuscribe el evento SelectedIndexChanged antes de cargar para evitar disparos inadvertidos,
+            y lo reactivar después de completar la carga.
+            </remarks>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCalificaciones.CbCursoCrear_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Evento que se dispara cuando se selecciona un curso en la sección "Ingresar Calificación".
+            Carga los estudiantes y asignaturas correspondientes al curso seleccionado.
+            </summary>
+            <param name="sender">Objeto que dispara el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCalificaciones.ConfigurarComboBoxEstudiantes(System.Data.DataTable)">
+            <summary>
+            Configura el ComboBox de estudiantes con los datos obtenidos del curso seleccionado.
+            </summary>
+            <param name="dtEstudiantes">DataTable que contiene la lista de estudiantes del curso</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCalificaciones.ConfigurarComboBoxAsignaturas(System.Data.DataTable)">
+            <summary>
+            Configura el ComboBox de asignaturas con los datos obtenidos del curso seleccionado.
+            </summary>
+            <param name="dtAsignaturas">DataTable que contiene la lista de asignaturas del curso</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCalificaciones.LimpiarComboboxDependientes">
+            <summary>
+            Limpia y reinicia los ComboBox de estudiantes y asignaturas.
+            Se ejecuta cuando no hay curso seleccionado.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCalificaciones.BtnCrearCalificacion_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento del botón "Ingresar" en la sección de creación de calificaciones.
+            Valida los datos y registra la nueva calificación en la base de datos.
+            </summary>
+            <param name="sender">Objeto que dispara el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCalificaciones.BtnLimpiarFormCrear_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento del botón "Limpiar" en la sección de creación de calificaciones.
+            Reinicia todos los campos del formulario de ingreso.
+            </summary>
+            <param name="sender">Objeto que dispara el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCalificaciones.CargarCursosActualizar">
+            <summary>
+            Carga la lista de cursos disponibles en el ComboBox de la sección "Actualizar Calificación".
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCalificaciones.CbSeleccionarCursoAct_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Evento que se dispara cuando se selecciona un curso en la sección "Actualizar Calificación".
+            Carga las asignaturas correspondientes al curso seleccionado.
+            </summary>
+            <param name="sender">Objeto que dispara el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCalificaciones.CbSeleccionarAsignaturaAct_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Evento que se dispara cuando se selecciona una asignatura en la sección "Actualizar Calificación".
+            Carga las calificaciones filtradas por curso y asignatura en el DataGridView.
+            </summary>
+            <param name="sender">Objeto que dispara el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCalificaciones.dataGridView1_SelectionChanged(System.Object,System.EventArgs)">
+            <summary>
+            Evento que se dispara cuando se selecciona una fila en el DataGridView de actualización.
+            Carga los datos de la calificación seleccionada en los campos de edición.
+            </summary>
+            <param name="sender">Objeto que dispara el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCalificaciones.BtnActualizarCalificacion_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento del botón "Actualizar" en la sección de actualización de calificaciones.
+            Valida los datos modificados y actualiza la calificación en la base de datos.
+            </summary>
+            <param name="sender">Objeto que dispara el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCalificaciones.BtnLimpiarFormAct_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento del botón "Limpiar" en la sección de actualización de calificaciones.
+            Reinicia todos los campos, ComboBox y el DataGridView.
+            </summary>
+            <param name="sender">Objeto que dispara el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCalificaciones.InicializarSeccionActualizar">
+            <summary>
+            Inicializa el estado de todos los controles de la sección "Actualizar Calificación".
+            Se ejecuta al cargar el formulario para establecer controles deshabilitados inicialmente.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCalificaciones.PersonalizarDataGridView">
+            <summary>
+            Personaliza la apariencia del DataGridView de calificaciones.
+            Oculta columnas de IDs y establece formatos para las columnas visibles.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCalificaciones.LimpiarCamposEditables">
+            <summary>
+            Limpia y reinicia solo los campos editables de la sección "Actualizar Calificación".
+            No limpia los filtros (Curso y Asignatura), solo los datos del registro seleccionado.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCalificaciones.LimpiarTodoActualizar">
+            <summary>
+            Limpia completamente todos los controles de la sección "Actualizar Calificación".
+            Reinicia filtros, DataGridView y campos editables a su estado inicial.
+            </summary>
+        </member>
+        <member name="F:Tarea_3___Instituto_Codice.GestionCalificaciones.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCalificaciones.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCalificaciones.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Tarea_3___Instituto_Codice.GestionCursos">
+            <summary>
+            Formulario de gestión de cursos del sistema Instituto Códice.
+            Permite crear, visualizar y actualizar información de cursos.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCursos.#ctor">
+            <summary>
+            Constructor de la clase GestionCursos.
+            Inicializa los componentes del formulario y carga la lista de cursos.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCursos.GestionCursos_Load(System.Object,System.EventArgs)">
+            <summary>
+            Se ejecuta cuando se carga el formulario.
+            Muestra todos los cursos registrados en el DataGridView.
+            </summary>
+            <param name="sender">Objeto que dispara el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCursos.MostrarCursos">
+            <summary>
+            Obtiene y muestra todos los cursos en el DataGridView principal.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCursos.SeleccionarCurso">
+            <summary>
+            Carga la lista de cursos en el ComboBox para la sección de actualización.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCursos.BtnCrearCurso_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento del botón "Crear" en la sección de ingreso de cursos.
+            Registra un nuevo curso en la base de datos con el nombre ingresado.
+            </summary>
+            <param name="sender">Objeto que dispara el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCursos.BtnLimpiarFormCurso_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento del botón "Limpiar" en la sección de creación de cursos.
+            Reinicia los campos del formulario de ingreso.
+            </summary>
+            <param name="sender">Objeto que dispara el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCursos.BtnActualizarCurso_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento del botón "Actualizar" en la sección de actualización de cursos.
+            Modifica el nombre del curso seleccionado en la base de datos.
+            </summary>
+            <param name="sender">Objeto que dispara el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCursos.BtnLimpiarFormAct_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento del botón "Limpiar" en la sección de actualización de cursos.
+            Reinicia todos los campos del formulario de actualización.
+            </summary>
+            <param name="sender">Objeto que dispara el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="F:Tarea_3___Instituto_Codice.GestionCursos.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCursos.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionCursos.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Tarea_3___Instituto_Codice.GestionEstudiantes">
+            <summary>
+            Formulario de gestión de estudiantes del sistema Instituto Códice.
+            Permite crear, visualizar y actualizar información de estudiantes.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionEstudiantes.#ctor">
+            <summary>
+            Constructor de la clase GestionEstudiantes.
+            Inicializa los componentes y carga las listas de cursos y estudiantes.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionEstudiantes.MostrarEstudiantes">
+            <summary>
+            Obtiene y muestra todos los estudiantes en el DataGridView principal.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionEstudiantes.GestionEstudiantes_Load(System.Object,System.EventArgs)">
+            <summary>
+            Se ejecuta cuando se carga el formulario.
+            Muestra todos los estudiantes registrados en el DataGridView.
+            </summary>
+            <param name="sender">Objeto que dispara el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionEstudiantes.ListaCursos">
+            <summary>
+            Carga la lista de cursos disponibles en el ComboBox de la sección de creación.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionEstudiantes.BtnCrearEstudiante_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento del botón "Crear" en la sección de ingreso de estudiantes.
+            Registra un nuevo estudiante en la base de datos con los datos ingresados.
+            </summary>
+            <param name="sender">Objeto que dispara el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionEstudiantes.BtnLimpiarFormCrear_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento del botón "Limpiar" en la sección de creación de estudiantes.
+            Reinicia todos los campos del formulario de ingreso.
+            </summary>
+            <param name="sender">Objeto que dispara el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionEstudiantes.ListaEstudiantes">
+            <summary>
+            Carga la lista de estudiantes en el ComboBox de la sección de actualización.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionEstudiantes.BtnActualizarEstudiante_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento del botón "Actualizar" en la sección de actualización de estudiantes.
+            Modifica los datos del estudiante seleccionado en la base de datos.
+            </summary>
+            <param name="sender">Objeto que dispara el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionEstudiantes.BtnLimpiarFormAct_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento del botón "Limpiar" en la sección de actualización de estudiantes.
+            Reinicia todos los campos del formulario de actualización.
+            </summary>
+            <param name="sender">Objeto que dispara el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="F:Tarea_3___Instituto_Codice.GestionEstudiantes.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionEstudiantes.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.GestionEstudiantes.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Tarea_3___Instituto_Codice.MenuPrincipal">
+            <summary>
+            Formulario del menú principal del sistema Instituto Códice.
+            Proporciona acceso a todos los módulos de gestión del sistema.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.MenuPrincipal.#ctor">
+            <summary>
+            Constructor de la clase MenuPrincipal.
+            Inicializa los componentes del menú principal.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.MenuPrincipal.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento del botón "Gestión de Estudiantes".
+            Abre el formulario de gestión de estudiantes.
+            </summary>
+            <param name="sender">Objeto que dispara el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.MenuPrincipal.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento del botón "Gestión de Asignaturas".
+            Abre el formulario de gestión de asignaturas.
+            </summary>
+            <param name="sender">Objeto que dispara el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.MenuPrincipal.BtnGestionCursos_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento del botón "Gestión de Cursos".
+            Abre el formulario de gestión de cursos.
+            </summary>
+            <param name="sender">Objeto que dispara el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.MenuPrincipal.BtnGestionCalificaciones_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento del botón "Gestión de Calificaciones".
+            Abre el formulario de gestión de calificaciones.
+            </summary>
+            <param name="sender">Objeto que dispara el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.MenuPrincipal.BtnGestionAsistencia_Click(System.Object,System.EventArgs)">
+            <summary>
+            Evento del botón "Gestión de Asistencia".
+            Abre el formulario de gestión de asistencia.
+            </summary>
+            <param name="sender">Objeto que dispara el evento</param>
+            <param name="e">Argumentos del evento</param>
+        </member>
+        <member name="F:Tarea_3___Instituto_Codice.MenuPrincipal.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.MenuPrincipal.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.MenuPrincipal.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.Program.Main">
+            <summary>
+             The main entry point for the application.
+            </summary>
+        </member>
+        <member name="F:Tarea_3___Instituto_Codice.RegistrarUsuario.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.RegistrarUsuario.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.RegistrarUsuario.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Tarea_3___Instituto_Codice.SesionUsuario">
+            <summary>
+            Clase estática que gestiona la sesión del usuario autenticado en la aplicación.
+            Almacena la información del usuario activo y proporciona métodos para gestionar el estado de sesión.
+            </summary>
+        </member>
+        <member name="P:Tarea_3___Instituto_Codice.SesionUsuario.UsuarioID">
+            <summary>
+            Obtiene o establece el identificador único del usuario con sesión activa.
+            </summary>
+            <value>ID del usuario, 0 si no hay sesión activa.</value>
+        </member>
+        <member name="P:Tarea_3___Instituto_Codice.SesionUsuario.NombreUsuario">
+            <summary>
+            Obtiene o establece el nombre del usuario con sesión activa.
+            </summary>
+            <value>Nombre del usuario autenticado.</value>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.SesionUsuario.SesionActiva">
+            <summary>
+            Verifica si existe una sesión activa en el sistema.
+            </summary>
+            <returns>
+            Retorna true si hay un usuario con sesión activa (UsuarioID mayor a 0), false en caso contrario.
+            </returns>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.SesionUsuario.CerrarSesion">
+            <summary>
+            Cierra la sesión actual del usuario, limpiando todos los datos de sesión.
+            Restablece el UsuarioID a 0 y el NombreUsuario a cadena vacía.
+            </summary>
+        </member>
+        <member name="T:Tarea_3___Instituto_Codice.ApplicationConfiguration">
+            <summary>
+             Bootstrap the application configuration.
+            </summary>
+        </member>
+        <member name="M:Tarea_3___Instituto_Codice.ApplicationConfiguration.Initialize">
+            <summary>
+             Bootstrap the application as follows:
+             <code>
+             global::System.Windows.Forms.Application.EnableVisualStyles();
+             global::System.Windows.Forms.Application.SetCompatibleTextRenderingDefault(false);
+             global::System.Windows.Forms.Application.SetHighDpiMode(HighDpiMode.SystemAware);
+            </code>
+            </summary>
+        </member>
+    </members>
+</doc>
